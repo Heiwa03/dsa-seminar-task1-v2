@@ -31,4 +31,7 @@ void populate_sales_list(SalesList* sales_list, char* file_name);
 void print_sale(Sale* sale);
 void print_sales_list(SalesList* sales_list);
 
+int get_month_from_date(char* date);
+int get_year_from_date(char* date);
+
 #endif // SALES_H

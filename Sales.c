@@ -127,3 +127,29 @@ void print_sales_list(SalesList* sales_list) {
         printf("\n");
     }
 }
+
+int get_month_from_date(char* date) {
+    if(date == NULL) {
+        fprintf(stderr, "Date is NULL.\n");
+        return -1;
+    }
+
+    char month[3];
+    strncpy(month, &date[5], 2);
+    month[2] = '\0';
+
+    return atoi(month);
+}
+
+int get_year_from_date(char* date) {
+    if(date == NULL) {
+        fprintf(stderr, "Date is NULL.\n");
+        return -1;
+    }
+
+    char year[5];
+    strncpy(year, date, 4);
+    year[4] = '\0';
+
+    return atoi(year);
+}
