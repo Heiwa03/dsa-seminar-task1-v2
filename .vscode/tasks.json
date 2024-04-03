@@ -9,6 +9,7 @@
                 "-g",
                 "${file}",
                 "Sales.c",
+                "Group.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
