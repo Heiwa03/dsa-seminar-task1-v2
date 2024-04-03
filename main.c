@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Sales.h"
-#include "Group.h"
+#include "GroupMonthByRevenue.h"
 
 #define PATH_TO_CSV "./resources/sales.csv"
 
@@ -13,7 +13,7 @@ int main() {
     }
 
     populate_sales_list(sales_list, PATH_TO_CSV);
-    print_sales_list(sales_list);
+    //print_sales_list(sales_list);
 
     ListOfGroupMonthByRevenue* list_of_groups = create_list_of_group_month_by_revenue();
     if (list_of_groups == NULL) {

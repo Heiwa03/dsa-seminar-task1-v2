@@ -1,5 +1,5 @@
-#ifndef GROUP_H
-#define GROUP_H
+#ifndef GROUP_MONTH_BY_REVENUE_H
+#define GROUP_MONTH_BY_REVENUE_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,4 +42,4 @@ GroupMonthByRevenue * find_group_month_by_revenue(ListOfGroupMonthByRevenue * li
 void populate_group_month_by_revenue(ListOfGroupMonthByRevenue * list, SalesList * sales_list);
 void free_list_of_group_month_by_revenue(ListOfGroupMonthByRevenue * list);
 
-#endif // GROUP.H
+#endif // GROUP_MONTH_BY_REVENUE_H

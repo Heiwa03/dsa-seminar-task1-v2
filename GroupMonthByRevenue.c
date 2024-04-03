@@ -1,4 +1,4 @@
-#include "Group.h"
+#include "GroupMonthByRevenue.h"
 
 GroupMonthByRevenue * create_group_month_by_revenue(int month, int year, int num_of_sales, double revenue) {
     GroupMonthByRevenue * new_group = (GroupMonthByRevenue *) malloc(sizeof(GroupMonthByRevenue));
