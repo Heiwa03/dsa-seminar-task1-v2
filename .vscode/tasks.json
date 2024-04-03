@@ -10,6 +10,7 @@
                 "${file}",
                 "Sales.c",
                 "GroupMonthByRevenue.c",
+                "GroupProductByRevenue.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
