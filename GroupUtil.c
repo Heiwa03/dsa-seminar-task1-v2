@@ -1,5 +1,6 @@
 #include "GroupUtil.h"
 
+
 // Compact form of printing the resulting group 
 // Useful for textual reports and the fucking terminal line limit that can kiss my fucking ass
 void _print_compact_list_group_month_by_revenue(ListOfGroupMonthByRevenue * list) {
@@ -42,6 +43,21 @@ void _sort_list_of_group_month_by_revenue(ListOfGroupMonthByRevenue * list) {
     }
 }
 
+char * _get_user_option () {
+    char user_input[10];
+    printf("Do you want to save the results to a file? (yes/no): ");
+    fgets(user_input, sizeof(user_input), stdin);
+    strtok(user_input, "\n"); // remove newline character
+    if(!strcmp(user_input, "yes")) {
+        char file_name[50];
+        printf("Enter the file name: ");
+        fgets(file_name, sizeof(file_name), stdin);
+        strtok(file_name, "\n"); // remove newline character
+        return strdup(file_name);
+    }
+    return NULL;
+}
+
 // Answer to BQ1 - Find the total revenue per each month
 void find_total_revenue_per_each_month(SalesList * sales_list) {
     ListOfGroupMonthByRevenue* list_of_groups = create_list_of_group_month_by_revenue();
@@ -56,27 +72,18 @@ void find_total_revenue_per_each_month(SalesList * sales_list) {
     _sort_list_of_group_month_by_revenue(list_of_groups);
 
     _print_compact_list_group_month_by_revenue(list_of_groups);
-    char user_input[10];
-    printf("Do you want to save the results to a file? (yes/no): ");
-    fgets(user_input, sizeof(user_input), stdin);
-    strtok(user_input, "\n"); // remove newline character
-    if(!strcmp(user_input, "yes")) {
-        char file_name[50];
-        printf("Enter the file name: ");
-        fgets(file_name, sizeof(file_name), stdin);
-        strtok(file_name, "\n"); // remove newline character
-        FILE * file = fopen(file_name, "w");
-        if(file == NULL) {
-            printf("Error opening file.\n");
-            return;
-        }
-        for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
-            GroupMonthByRevenue * group = list_of_groups->group_month_by_revenue[i];
-            fprintf(file, "%d: Year: %d, Month: %d, Number of Sales: %d, Revenue: %.2f\n", 
-                    i + 1, group->year, group->month, group->num_of_sales, group->revenue);
-        }
-        fclose(file);
+    FILE * file = fopen(_get_user_option(), "w");
+    if(file == NULL) {
+        printf("Error opening file.\n");
+        return;
     }
+
+    for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+        GroupMonthByRevenue * group = list_of_groups->group_month_by_revenue[i];
+        fprintf(file, "%d: Year: %d, Month: %d, Number of Sales: %d, Revenue: %.2f\n", 
+                i + 1, group->year, group->month, group->num_of_sales, group->revenue);
+    }
+    fclose(file);
 
     free_list_of_group_month_by_revenue(list_of_groups);
 }
