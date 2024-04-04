@@ -101,27 +101,17 @@ void find_top_5_products_by_revenue(SalesList * sales_list) {
     _sort_list_of_group_product_by_revenue(list_of_groups);
 
     _print_compact_list_group_product_by_revenue(list_of_groups);
-    char user_input[10];
-    printf("Do you want to save the results to a file? (yes/no): ");
-    fgets(user_input, sizeof(user_input), stdin);
-    strtok(user_input, "\n"); // remove newline character
-    if(!strcmp(user_input, "yes")) {
-        char file_name[50];
-        printf("Enter the file name: ");
-        fgets(file_name, sizeof(file_name), stdin);
-        strtok(file_name, "\n"); // remove newline character
-        FILE * file = fopen(file_name, "w");
-        if(file == NULL) {
-            printf("Error opening file.\n");
-            return;
-        }
-        for(int index = 0; index < 5; index++) {
-            GroupProductByRevenue * group = list_of_groups->group_product_by_revenue[index];
-            fprintf(file, "%d: Product: %s, Number of Sales: %d, Revenue: %.2f\n", 
-                    index + 1, group->product, group->num_of_sales, group->revenue);
-        }
-        fclose(file);
+    FILE * file = fopen(_get_user_option(), "w");
+    if(file == NULL) {
+        printf("Error opening file.\n");
+        return;
     }
+    for(int index = 0; index < 5; index++) {
+        GroupProductByRevenue * group = list_of_groups->group_product_by_revenue[index];
+        fprintf(file, "%d: Product: %s, Number of Sales: %d, Revenue: %.2f\n", 
+                index + 1, group->product, group->num_of_sales, group->revenue);
+    }
+    fclose(file);
 
     free_list_of_group_product_by_revenue(list_of_groups);
 }
@@ -176,27 +166,17 @@ void find_cities_with_highest_revenue_per_country(SalesList * sales_list) {
     _sort_list_of_group_city_by_revenue(list_of_groups);
 
     _print_compact_list_group_city_by_revenue(list_of_groups);
-    char user_input[10];
-    printf("Do you want to save the results to a file? (yes/no): ");
-    fgets(user_input, sizeof(user_input), stdin);
-    strtok(user_input, "\n"); // remove newline character
-    if(!strcmp(user_input, "yes")) {
-        char file_name[50];
-        printf("Enter the file name: ");
-        fgets(file_name, sizeof(file_name), stdin);
-        strtok(file_name, "\n"); // remove newline character
-        FILE * file = fopen(file_name, "w");
-        if(file == NULL) {
-            printf("Error opening file.\n");
-            return;
-        }
-        for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
-            GroupCityByRevenue * group = list_of_groups->group_city_by_revenue[i];
-            fprintf(file, "%d: City: %s, Country: %s, Number of Sales: %d, Revenue: %.2f\n", 
-                    i + 1, group->city, group->country, group->num_of_sales, group->revenue);
-        }
-        fclose(file);
+    FILE * file = fopen(_get_user_option(), "w");
+    if(file == NULL) {
+        printf("Error opening file.\n");
+        return;
     }
+    for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+        GroupCityByRevenue * group = list_of_groups->group_city_by_revenue[i];
+        fprintf(file, "%d: City: %s, Country: %s, Number of Sales: %d, Revenue: %.2f\n", 
+                i + 1, group->city, group->country, group->num_of_sales, group->revenue);
+    }
+    fclose(file);
 
     free_list_of_group_city_by_revenue(list_of_groups);
 }
@@ -275,23 +255,14 @@ void standard_deviation_of_revenue_per_category (SalesList * sales_list) {
     printf("Standard Deviation of Revenue per Category: %.2f\n", standard_deviation);
     printf("Mean Revenue per Category: %.2f\n", mean);
 
-    char user_input[10];
-    printf("Do you want to save the results to a file? (yes/no): ");
-    fgets(user_input, sizeof(user_input), stdin);
-    strtok(user_input, "\n"); // remove newline character
-    if(!strcmp(user_input, "yes")) {
-        char file_name[50];
-        printf("Enter the file name: ");
-        fgets(file_name, sizeof(file_name), stdin);
-        strtok(file_name, "\n"); // remove newline character
-        FILE * file = fopen(file_name, "w");
-        if(file == NULL) {
-            printf("Error opening file.\n");
-            return;
-        }
-        fprintf(file, "Standard Deviation of Revenue per Category: %.2f\nMean Revenue per Category: %.2f\n", standard_deviation, mean);
-        fclose(file);
+    FILE * file = fopen(_get_user_option(), "w");
+    if(file == NULL) {
+        printf("Error opening file.\n");
+        return;
     }
+    fprintf(file, "Standard Deviation of Revenue per Category: %.2f\nMean Revenue per Category: %.2f\n", standard_deviation, mean);
+    fclose(file);
+
     free_list_of_group_category_by_revenue(list_of_groups);
 }
 
@@ -306,29 +277,22 @@ void find_trend_of_revenue_per_subcategory(SalesList * sales_list) {
     populate_group_subcategory_by_monthly_revenue(list_of_groups, sales_list);
     
     print_list_of_group_subcategory_by_monthly_revenue(list_of_groups);
-    char * user_input;
-    printf("Do you want to save the results to a file? (yes/no): ");
-    scanf("%s", user_input);
-    if(!strcmp(user_input, "yes")) {
-        char * file_name;
-        printf("Enter the file name: ");
-        scanf("%s", file_name);
-        FILE * file = fopen(file_name, "w");
-        if(file == NULL) {
-            printf("Error opening file.\n");
-            return;
-        }
-        for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
-            GroupSubcategoryByMonthlyRevenue * group = list_of_groups->group_subcategory_by_monthly_revenue[i];
-            fprintf(file, "%d: Subcategory: %s\n", i + 1, group->subcategory);
-            for(int j = 0; j < group->list_of_group_month_by_revenue->nr_of_groups; j++) {
-                GroupMonthByRevenue * month_group = group->list_of_group_month_by_revenue->group_month_by_revenue[j];
-                fprintf(file, "Month: %d, Year: %d, Number of Sales: %d, Revenue: %.2f\n", 
-                        month_group->month, month_group->year, month_group->num_of_sales, month_group->revenue);
-            }
-        }
-        fclose(file);
+
+    FILE * file = fopen(_get_user_option(), "w");
+    if(file == NULL) {
+        printf("Error opening file.\n");
+        return;
     }
+    for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+        GroupSubcategoryByMonthlyRevenue * group = list_of_groups->group_subcategory_by_monthly_revenue[i];
+        fprintf(file, "%d: Subcategory: %s\n", i + 1, group->subcategory);
+        for(int j = 0; j < group->list_of_group_month_by_revenue->nr_of_groups; j++) {
+            GroupMonthByRevenue * month_group = group->list_of_group_month_by_revenue->group_month_by_revenue[j];
+            fprintf(file, "Month: %d, Year: %d, Number of Sales: %d, Revenue: %.2f\n", 
+                    month_group->month, month_group->year, month_group->num_of_sales, month_group->revenue);
+        }
+    }
+    fclose(file);
 
     free_list_of_group_subcategory_by_monthly_revenue(list_of_groups);
 }

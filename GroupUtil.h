@@ -25,7 +25,8 @@ void _sort_list_of_group_city_by_revenue(ListOfGroupCityByRevenue * list);
 
 float _compute_standard_deviation_per_category (SalesList * sales_list, ListOfGroupCategoryByRevenue * list_of_groups, float mean);
 float _compute_standard_deviation_per_category (SalesList * sales_list, ListOfGroupCategoryByRevenue * list_of_groups, float mean);
-char * _get_user_option ();
+
+char * _get_user_option (); // Decision making before outputing the resulting data to a file
 
 
 
