@@ -2,6 +2,8 @@
     "cmake.configureOnOpen": false,
     "files.associations": {
         "sales.h": "c",
-        "groupmonthbyrevenue.h": "c"
+        "groupmonthbyrevenue.h": "c",
+        "grouputil.h": "c",
+        "groupcitybyrevenue.h": "c"
     }
 }

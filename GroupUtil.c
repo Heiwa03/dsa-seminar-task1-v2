@@ -151,3 +151,77 @@ void _sort_list_of_group_product_by_revenue(ListOfGroupProductByRevenue * list) 
         }
     }
 }
+
+void find_cities_with_highest_revenue_per_country(SalesList * sales_list) {
+    ListOfGroupCityByRevenue* list_of_groups = create_list_of_group_city_by_revenue();
+    if (list_of_groups == NULL) {
+        printf("Error creating list of groups.\n");
+        free_sales_list(sales_list);
+        return;
+    }
+    
+    populate_group_city_by_revenue(list_of_groups, sales_list);
+    
+    _sort_list_of_group_city_by_revenue(list_of_groups);
+
+    _print_compact_list_group_city_by_revenue(list_of_groups);
+    char * user_input;
+    printf("Do you want to save the results to a file? (yes/no): ");
+    scanf("%s", user_input);
+    if(!strcmp(user_input, "yes")) {
+        char * file_name;
+        printf("Enter the file name: ");
+        scanf("%s", file_name);
+        FILE * file = fopen(file_name, "w");
+        if(file == NULL) {
+            printf("Error opening file.\n");
+            return;
+        }
+        for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+            GroupCityByRevenue * group = list_of_groups->group_city_by_revenue[i];
+            fprintf(file, "%d: City: %s, Country: %s, Number of Sales: %d, Revenue: %.2f\n", 
+                    i + 1, group->city, group->country, group->num_of_sales, group->revenue);
+        }
+        fclose(file);
+    }
+
+    free_list_of_group_city_by_revenue(list_of_groups);
+}
+
+void _print_compact_list_group_city_by_revenue(ListOfGroupCityByRevenue * list) {
+    if(list == NULL) {
+        printf("List is NULL.\n");
+        return;
+    }
+
+    printf("Number of Groups: %d\n", list->nr_of_groups);
+    for(int i = 0; i < list->nr_of_groups; i++) {
+        GroupCityByRevenue * group = list->group_city_by_revenue[i];
+        if(group == NULL) {
+            printf("Group %d is NULL.\n", i + 1);
+            continue;
+        }
+
+        printf("%d: Country: %s, City: %s, Number of Sales: %d, Revenue: %.2f\n", 
+               i + 1, group->country, group->city, group->num_of_sales, group->revenue);
+    }
+}
+
+void _sort_list_of_group_city_by_revenue(ListOfGroupCityByRevenue * list) {
+    if(list == NULL) {
+        printf("List is NULL.\n");
+        return;
+    }
+
+    for(int i = 0; i < list->nr_of_groups; i++) {
+        for(int j = i + 1; j < list->nr_of_groups; j++) {
+            // Compare countries
+            int countryComparison = strcmp(list->group_city_by_revenue[i]->country, list->group_city_by_revenue[j]->country);
+            if (countryComparison > 0 || (countryComparison == 0 && list->group_city_by_revenue[i]->revenue < list->group_city_by_revenue[j]->revenue)) {
+                GroupCityByRevenue * temp = list->group_city_by_revenue[i];
+                list->group_city_by_revenue[i] = list->group_city_by_revenue[j];
+                list->group_city_by_revenue[j] = temp;
+            }
+        }
+    }
+}

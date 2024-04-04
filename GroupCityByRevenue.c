@@ -118,6 +118,41 @@ void populate_group_city_by_revenue(ListOfGroupCityByRevenue * list, SalesList *
         }
     }
 }
+/*
+void populate_group_city_by_revenue(ListOfGroupCityByRevenue * list, SalesList * sales_list) {
+    if(list == NULL || sales_list == NULL) {
+        fprintf(stderr, "List or SalesList is NULL.\n");
+        return;
+    }
+
+    // Create a hash table
+    GHashTable *hash_table = g_hash_table_new(g_str_hash, g_str_equal);
+
+    for(int i = 0; i < sales_list->num_of_sales; i++) {
+        Sale * sale = sales_list->sales[i];
+        char* city = sale->sale_city;
+        char* country = sale->sale_country;
+        double revenue = atof(sale->unit_price) * atoi(sale->sale_quantity);
+
+        // Create a key for the hash table
+        char key[200];
+        sprintf(key, "%s-%s", city, country);
+
+        GroupCityByRevenue * group = (GroupCityByRevenue *) g_hash_table_lookup(hash_table, key);
+        if(group == NULL) {
+            group = create_group_city_by_revenue(city, country, 1, revenue);
+            add_group_city_by_revenue(list, group);
+            g_hash_table_insert(hash_table, strdup(key), group);
+        } else {
+            group->num_of_sales++;
+            group->revenue += revenue;
+        }
+    }
+
+    // Destroy the hash table
+    g_hash_table_destroy(hash_table);
+}
+*/
 
 void free_list_of_group_city_by_revenue(ListOfGroupCityByRevenue * list) {
     if(list == NULL) {

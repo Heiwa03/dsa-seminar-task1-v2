@@ -15,7 +15,8 @@ int main() {
     populate_sales_list(sales_list, PATH_TO_CSV);
     //print_sales_list(sales_list);
     //find_total_revenue_per_each_month(sales_list);
-    find_top_5_products_by_revenue(sales_list);
+    //find_top_5_products_by_revenue(sales_list);
+    find_cities_with_highest_revenue_per_country(sales_list);
     /*
     ListOfGroupMonthByRevenue* list_of_groups = create_list_of_group_month_by_revenue();
     if (list_of_groups == NULL) {
