@@ -56,13 +56,15 @@ void find_total_revenue_per_each_month(SalesList * sales_list) {
     _sort_list_of_group_month_by_revenue(list_of_groups);
 
     _print_compact_list_group_month_by_revenue(list_of_groups);
-    char * user_input;
+    char user_input[10];
     printf("Do you want to save the results to a file? (yes/no): ");
-    scanf("%s", user_input);
+    fgets(user_input, sizeof(user_input), stdin);
+    strtok(user_input, "\n"); // remove newline character
     if(!strcmp(user_input, "yes")) {
-        char * file_name;
+        char file_name[50];
         printf("Enter the file name: ");
-        scanf("%s", file_name);
+        fgets(file_name, sizeof(file_name), stdin);
+        strtok(file_name, "\n"); // remove newline character
         FILE * file = fopen(file_name, "w");
         if(file == NULL) {
             printf("Error opening file.\n");
@@ -167,13 +169,15 @@ void find_cities_with_highest_revenue_per_country(SalesList * sales_list) {
     _sort_list_of_group_city_by_revenue(list_of_groups);
 
     _print_compact_list_group_city_by_revenue(list_of_groups);
-    char * user_input;
+    char user_input[10];
     printf("Do you want to save the results to a file? (yes/no): ");
-    scanf("%s", user_input);
+    fgets(user_input, sizeof(user_input), stdin);
+    strtok(user_input, "\n"); // remove newline character
     if(!strcmp(user_input, "yes")) {
-        char * file_name;
+        char file_name[50];
         printf("Enter the file name: ");
-        scanf("%s", file_name);
+        fgets(file_name, sizeof(file_name), stdin);
+        strtok(file_name, "\n"); // remove newline character
         FILE * file = fopen(file_name, "w");
         if(file == NULL) {
             printf("Error opening file.\n");
@@ -264,6 +268,23 @@ void standard_deviation_of_revenue_per_category (SalesList * sales_list) {
     printf("Standard Deviation of Revenue per Category: %.2f\n", standard_deviation);
     printf("Mean Revenue per Category: %.2f\n", mean);
 
+    char user_input[10];
+    printf("Do you want to save the results to a file? (yes/no): ");
+    fgets(user_input, sizeof(user_input), stdin);
+    strtok(user_input, "\n"); // remove newline character
+    if(!strcmp(user_input, "yes")) {
+        char file_name[50];
+        printf("Enter the file name: ");
+        fgets(file_name, sizeof(file_name), stdin);
+        strtok(file_name, "\n"); // remove newline character
+        FILE * file = fopen(file_name, "w");
+        if(file == NULL) {
+            printf("Error opening file.\n");
+            return;
+        }
+        fprintf(file, "Standard Deviation of Revenue per Category: %.2f\nMean Revenue per Category: %.2f\n", standard_deviation, mean);
+        fclose(file);
+    }
     free_list_of_group_category_by_revenue(list_of_groups);
 }
 

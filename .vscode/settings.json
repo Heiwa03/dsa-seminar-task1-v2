@@ -4,6 +4,7 @@
         "sales.h": "c",
         "groupmonthbyrevenue.h": "c",
         "grouputil.h": "c",
-        "groupcitybyrevenue.h": "c"
+        "groupcitybyrevenue.h": "c",
+        "groupsubcategorypermonthlyrevenue.h": "c"
     }
 }

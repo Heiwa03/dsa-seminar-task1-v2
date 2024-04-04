@@ -1,5 +1,2 @@
-1: Product: administration, Number of Sales: 120, Revenue: 3758680.40
-2: Product: significant, Number of Sales: 126, Revenue: 3714616.70
-3: Product: western, Number of Sales: 116, Revenue: 3652756.51
-4: Product: site, Number of Sales: 120, Revenue: 3598013.25
-5: Product: deal, Number of Sales: 127, Revenue: 3576701.77
+Standard Deviation of Revenue per Category: 339214.97
+Mean Revenue per Category: 2619047.00
