@@ -12,6 +12,7 @@ void find_total_revenue_per_each_month(SalesList * sales_list);
 void find_top_5_products_by_revenue(SalesList * sales_list);
 void find_cities_with_highest_revenue_per_country(SalesList * sales_list);
 void standard_deviation_of_revenue_per_category(SalesList * sales_list);
+void find_trend_of_revenue_per_subcategory(SalesList * sales_list);
 
 // Helper functions
 void _print_compact_list_group_month_by_revenue(ListOfGroupMonthByRevenue * list);

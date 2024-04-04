@@ -6,6 +6,8 @@
 
 #define PATH_TO_CSV "./resources/sales.csv"
 
+void open_option_menu (SalesList* sales_list);
+
 int main() {
     SalesList* sales_list = create_sales_list();
     if (sales_list == NULL) {
@@ -13,76 +15,51 @@ int main() {
     }
 
     populate_sales_list(sales_list, PATH_TO_CSV);
-    //print_sales_list(sales_list);
-    //find_total_revenue_per_each_month(sales_list);
-    //find_top_5_products_by_revenue(sales_list);
-    //find_cities_with_highest_revenue_per_country(sales_list);
-    //standard_deviation_of_revenue_per_category(sales_list);
 
-    ListOfGroupSubcategoryByMonthlyRevenue* list_of_groups = create_list_of_group_subcategory_by_monthly_revenue();
-    if (list_of_groups == NULL) {
-        free_sales_list(sales_list);
-        return 1;
-    }
-
-    populate_group_subcategory_by_monthly_revenue(list_of_groups, sales_list);
-    print_list_of_group_subcategory_by_monthly_revenue(list_of_groups);
-
-    free_list_of_group_subcategory_by_monthly_revenue(list_of_groups);
-
-
-    /*
-    ListOfGroupCategoryByRevenue* list_of_groups = create_list_of_group_category_by_revenue();
-    if (list_of_groups == NULL) {
-        free_sales_list(sales_list);
-        return 1;
-    }
-
-    populate_group_category_by_revenue(list_of_groups, sales_list);
-    print_list_of_group_category_by_revenue(list_of_groups);
-
-    free_list_of_group_category_by_revenue(list_of_groups);
-    */
-    /*
-    ListOfGroupMonthByRevenue* list_of_groups = create_list_of_group_month_by_revenue();
-    if (list_of_groups == NULL) {
-        free_sales_list(sales_list);
-        return 1;
-    }
-    
-    populate_group_month_by_revenue(list_of_groups, sales_list);
-    print_list_of_group_month_by_revenue(list_of_groups);
-
-    free_list_of_group_month_by_revenue(list_of_groups);
-    */
-
-    /*
-    ListOfGroupProductByRevenue* list_of_groups = create_list_of_group_product_by_revenue();
-    if (list_of_groups == NULL) {
-        free_sales_list(sales_list);
-        return 1;
-    }
-
-    populate_group_product_by_revenue(list_of_groups, sales_list);
-    print_list_of_group_product_by_revenue(list_of_groups);
-
-    free_list_of_group_product_by_revenue(list_of_groups);
-    */
-
-    /*
-    ListOfGroupCityByRevenue* list_of_groups = create_list_of_group_city_by_revenue();
-    if (list_of_groups == NULL) {
-        free_sales_list(sales_list);
-        return 1;
-    }
-
-    populate_group_city_by_revenue(list_of_groups, sales_list);
-    print_list_of_group_city_by_revenue(list_of_groups);
-
-    free_list_of_group_city_by_revenue(list_of_groups);
-    */
+    open_option_menu(sales_list);
 
     free_sales_list(sales_list);
 
     return 0;
+}
+
+void print_options() {
+    printf("1. Find total revenue per each month\n");
+    printf("2. Find top 5 products by revenue\n");
+    printf("3. Find cities with highest revenue per country\n");
+    printf("4. Find standard deviation of revenue per category\n");
+    printf("5. Find trend of revenue per subcategory\n");
+    printf("6. Exit\n");
+}
+
+void open_option_menu (SalesList* sales_list) {
+    char input[10];
+    int option;
+    do {
+        print_options();
+        printf("Choose an option: ");
+        fgets(input, sizeof(input), stdin);
+        sscanf(input, "%d", &option);
+        switch (option) {
+            case 1:
+                find_total_revenue_per_each_month(sales_list);
+                break;
+            case 2:
+                find_top_5_products_by_revenue(sales_list);
+                break;
+            case 3:
+                find_cities_with_highest_revenue_per_country(sales_list);
+                break;
+            case 4:
+                standard_deviation_of_revenue_per_category(sales_list);
+                break;
+            case 5:
+                find_trend_of_revenue_per_subcategory(sales_list);
+                break;
+            case 6:
+                break;
+            default:
+                printf("Invalid option\n");
+        }
+    } while (option != 6);
 }
