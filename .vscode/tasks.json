@@ -14,6 +14,7 @@
                 "GroupProductByRevenue.c",
                 "GroupCityByRevenue.c",
                 "GroupCategoryByRevenue.c",
+                "GroupSubcategoryPerMonthlyRevenue.c",
                 "GroupUtil.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"

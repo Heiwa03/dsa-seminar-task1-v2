@@ -5,6 +5,7 @@
 #include "GroupProductByRevenue.h"
 #include "GroupMonthByRevenue.h"
 #include "GroupCategoryByRevenue.h"
+#include "GroupSubcategoryPerMonthlyRevenue.h"
 #include "Sales.h"
 
 void find_total_revenue_per_each_month(SalesList * sales_list);
