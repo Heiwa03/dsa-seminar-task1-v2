@@ -104,10 +104,10 @@ void find_top_5_products_by_revenue(SalesList * sales_list) {
             printf("Error opening file.\n");
             return;
         }
-        for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
-            GroupProductByRevenue * group = list_of_groups->group_product_by_revenue[i];
+        for(int index = 0; index < 5; index++) {
+            GroupProductByRevenue * group = list_of_groups->group_product_by_revenue[index];
             fprintf(file, "%d: Product: %s, Number of Sales: %d, Revenue: %.2f\n", 
-                    i + 1, group->product, group->num_of_sales, group->revenue);
+                    index + 1, group->product, group->num_of_sales, group->revenue);
         }
         fclose(file);
     }
@@ -122,7 +122,7 @@ void _print_compact_list_group_product_by_revenue(ListOfGroupProductByRevenue * 
     }
 
     printf("Number of Groups: %d\n", list->nr_of_groups);
-    for(int i = 0; i < list->nr_of_groups; i++) {
+    for(int i = 0; i < 5; i++) {
         GroupProductByRevenue * group = list->group_product_by_revenue[i];
         if(group == NULL) {
             printf("Group %d is NULL.\n", i + 1);
