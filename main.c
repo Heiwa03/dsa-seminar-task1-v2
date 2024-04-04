@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Sales.h"
-#include "GroupMonthByRevenue.h"
-#include "GroupProductByRevenue.h"
+#include "GroupUtil.h"
 
 #define PATH_TO_CSV "./resources/sales.csv"
 
@@ -15,7 +14,7 @@ int main() {
 
     populate_sales_list(sales_list, PATH_TO_CSV);
     //print_sales_list(sales_list);
-
+    find_total_revenue_per_each_month(sales_list);
     /*
     ListOfGroupMonthByRevenue* list_of_groups = create_list_of_group_month_by_revenue();
     if (list_of_groups == NULL) {
@@ -29,6 +28,7 @@ int main() {
     free_list_of_group_month_by_revenue(list_of_groups);
     */
 
+    /*
     ListOfGroupProductByRevenue* list_of_groups = create_list_of_group_product_by_revenue();
     if (list_of_groups == NULL) {
         free_sales_list(sales_list);
@@ -39,7 +39,20 @@ int main() {
     print_list_of_group_product_by_revenue(list_of_groups);
 
     free_list_of_group_product_by_revenue(list_of_groups);
-    
+    */
+
+    /*
+    ListOfGroupCityByRevenue* list_of_groups = create_list_of_group_city_by_revenue();
+    if (list_of_groups == NULL) {
+        free_sales_list(sales_list);
+        return 1;
+    }
+
+    populate_group_city_by_revenue(list_of_groups, sales_list);
+    print_list_of_group_city_by_revenue(list_of_groups);
+
+    free_list_of_group_city_by_revenue(list_of_groups);
+    */
 
     free_sales_list(sales_list);
 

@@ -18,12 +18,6 @@ typedef struct ListOfGroupMonthByRevenue {
     int nr_of_groups;
 } ListOfGroupMonthByRevenue;
 
-typedef struct GroupCityByRevenue {
-    char city[100];
-    char country[100];
-    int num_of_sales;
-    double revenue;
-} GroupCityByRevenue;
 
 GroupMonthByRevenue * create_group_month_by_revenue(int month, int year, int num_of_sales, double revenue);
 ListOfGroupMonthByRevenue * create_list_of_group_month_by_revenue();
