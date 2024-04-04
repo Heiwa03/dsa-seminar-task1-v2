@@ -225,3 +225,42 @@ void _sort_list_of_group_city_by_revenue(ListOfGroupCityByRevenue * list) {
         }
     }
 }
+
+float _compute_mean_revenue_per_category (SalesList * sales_list, ListOfGroupCategoryByRevenue * list_of_groups) {
+    double sum = 0;
+    for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+        GroupCategoryByRevenue * group = list_of_groups->group_category_by_revenue[i];
+        sum += group->revenue;
+    }
+    double mean = sum / list_of_groups->nr_of_groups;
+    return mean;
+}
+
+float _compute_standard_deviation_per_category (SalesList * sales_list, ListOfGroupCategoryByRevenue * list_of_groups, float mean) {
+    double sum_of_squares = 0;
+    for(int i = 0; i < list_of_groups->nr_of_groups; i++) {
+        GroupCategoryByRevenue * group = list_of_groups->group_category_by_revenue[i];
+        sum_of_squares += pow(group->revenue - mean, 2);
+    }
+    double standard_deviation = sqrt(sum_of_squares / list_of_groups->nr_of_groups);
+    return standard_deviation;
+}
+
+void standard_deviation_of_revenue_per_category (SalesList * sales_list) {
+    ListOfGroupCategoryByRevenue* list_of_groups = create_list_of_group_category_by_revenue();
+    if (list_of_groups == NULL) {
+        printf("Error creating list of groups.\n");
+        free_sales_list(sales_list);
+        return;
+    }
+    
+    populate_group_category_by_revenue(list_of_groups, sales_list);
+    
+    double mean = _compute_mean_revenue_per_category(sales_list, list_of_groups);
+    double standard_deviation = _compute_standard_deviation_per_category(sales_list, list_of_groups, mean);
+    
+    printf("Standard Deviation of Revenue per Category: %.2f\n", standard_deviation);
+    printf("Mean Revenue per Category: %.2f\n", mean);
+
+    free_list_of_group_category_by_revenue(list_of_groups);
+}

@@ -6,12 +6,14 @@
             "command": "/usr/lib64/ccache/gcc",
             "args": [
                 "-fdiagnostics-color=always",
+                "-lm",
                 "-g",
                 "${file}",
                 "Sales.c",
                 "GroupMonthByRevenue.c",
                 "GroupProductByRevenue.c",
                 "GroupCityByRevenue.c",
+                "GroupCategoryByRevenue.c",
                 "GroupUtil.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
