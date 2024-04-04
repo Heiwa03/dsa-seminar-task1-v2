@@ -1,650 +1,971 @@
-1: Year: 1970, Month: 1, Number of Sales: 155, Revenue: 3817572.26
-2: Year: 1970, Month: 2, Number of Sales: 152, Revenue: 4268720.76
-3: Year: 1970, Month: 3, Number of Sales: 128, Revenue: 3022122.02
-4: Year: 1970, Month: 4, Number of Sales: 151, Revenue: 3747412.42
-5: Year: 1970, Month: 5, Number of Sales: 148, Revenue: 3838203.20
-6: Year: 1970, Month: 6, Number of Sales: 159, Revenue: 4353013.76
-7: Year: 1970, Month: 7, Number of Sales: 162, Revenue: 4440157.75
-8: Year: 1970, Month: 8, Number of Sales: 168, Revenue: 4631337.55
-9: Year: 1970, Month: 9, Number of Sales: 159, Revenue: 4110377.97
-10: Year: 1970, Month: 10, Number of Sales: 159, Revenue: 4048969.20
-11: Year: 1970, Month: 11, Number of Sales: 161, Revenue: 4250889.33
-12: Year: 1970, Month: 12, Number of Sales: 136, Revenue: 3304957.68
-13: Year: 1971, Month: 1, Number of Sales: 173, Revenue: 4374095.63
-14: Year: 1971, Month: 2, Number of Sales: 144, Revenue: 3592182.53
-15: Year: 1971, Month: 3, Number of Sales: 166, Revenue: 4166630.44
-16: Year: 1971, Month: 4, Number of Sales: 139, Revenue: 3539780.52
-17: Year: 1971, Month: 5, Number of Sales: 165, Revenue: 4009265.69
-18: Year: 1971, Month: 6, Number of Sales: 127, Revenue: 3731012.27
-19: Year: 1971, Month: 7, Number of Sales: 167, Revenue: 3989766.70
-20: Year: 1971, Month: 8, Number of Sales: 159, Revenue: 4203782.89
-21: Year: 1971, Month: 9, Number of Sales: 153, Revenue: 3604754.14
-22: Year: 1971, Month: 10, Number of Sales: 152, Revenue: 3916490.84
-23: Year: 1971, Month: 11, Number of Sales: 149, Revenue: 3803250.19
-24: Year: 1971, Month: 12, Number of Sales: 161, Revenue: 4025008.58
-25: Year: 1972, Month: 1, Number of Sales: 146, Revenue: 3580797.59
-26: Year: 1972, Month: 2, Number of Sales: 131, Revenue: 3426017.62
-27: Year: 1972, Month: 3, Number of Sales: 140, Revenue: 3885631.80
-28: Year: 1972, Month: 4, Number of Sales: 144, Revenue: 3308089.71
-29: Year: 1972, Month: 5, Number of Sales: 155, Revenue: 3971972.62
-30: Year: 1972, Month: 6, Number of Sales: 136, Revenue: 3510273.28
-31: Year: 1972, Month: 7, Number of Sales: 133, Revenue: 3454637.68
-32: Year: 1972, Month: 8, Number of Sales: 178, Revenue: 4388254.52
-33: Year: 1972, Month: 9, Number of Sales: 154, Revenue: 4133144.29
-34: Year: 1972, Month: 10, Number of Sales: 140, Revenue: 3428076.37
-35: Year: 1972, Month: 11, Number of Sales: 152, Revenue: 3848975.65
-36: Year: 1972, Month: 12, Number of Sales: 145, Revenue: 3661533.60
-37: Year: 1973, Month: 1, Number of Sales: 151, Revenue: 3994631.40
-38: Year: 1973, Month: 2, Number of Sales: 156, Revenue: 4099929.84
-39: Year: 1973, Month: 3, Number of Sales: 149, Revenue: 3711436.33
-40: Year: 1973, Month: 4, Number of Sales: 127, Revenue: 3288452.49
-41: Year: 1973, Month: 5, Number of Sales: 149, Revenue: 3989787.52
-42: Year: 1973, Month: 6, Number of Sales: 176, Revenue: 4795165.24
-43: Year: 1973, Month: 7, Number of Sales: 147, Revenue: 3860290.45
-44: Year: 1973, Month: 8, Number of Sales: 147, Revenue: 3857926.43
-45: Year: 1973, Month: 9, Number of Sales: 132, Revenue: 3094010.79
-46: Year: 1973, Month: 10, Number of Sales: 140, Revenue: 3745875.19
-47: Year: 1973, Month: 11, Number of Sales: 146, Revenue: 3845667.05
-48: Year: 1973, Month: 12, Number of Sales: 138, Revenue: 3391458.27
-49: Year: 1974, Month: 1, Number of Sales: 182, Revenue: 4555196.97
-50: Year: 1974, Month: 2, Number of Sales: 116, Revenue: 3216807.57
-51: Year: 1974, Month: 3, Number of Sales: 128, Revenue: 2850663.71
-52: Year: 1974, Month: 4, Number of Sales: 134, Revenue: 3286861.72
-53: Year: 1974, Month: 5, Number of Sales: 132, Revenue: 2842133.85
-54: Year: 1974, Month: 6, Number of Sales: 179, Revenue: 4367271.54
-55: Year: 1974, Month: 7, Number of Sales: 142, Revenue: 3374975.65
-56: Year: 1974, Month: 8, Number of Sales: 160, Revenue: 3943239.70
-57: Year: 1974, Month: 9, Number of Sales: 164, Revenue: 4144789.95
-58: Year: 1974, Month: 10, Number of Sales: 168, Revenue: 4239337.03
-59: Year: 1974, Month: 11, Number of Sales: 146, Revenue: 3589378.22
-60: Year: 1974, Month: 12, Number of Sales: 159, Revenue: 3716121.63
-61: Year: 1975, Month: 1, Number of Sales: 180, Revenue: 4672166.89
-62: Year: 1975, Month: 2, Number of Sales: 132, Revenue: 3144901.47
-63: Year: 1975, Month: 3, Number of Sales: 140, Revenue: 3602912.33
-64: Year: 1975, Month: 4, Number of Sales: 173, Revenue: 4723641.63
-65: Year: 1975, Month: 5, Number of Sales: 160, Revenue: 3937500.85
-66: Year: 1975, Month: 6, Number of Sales: 167, Revenue: 4378345.41
-67: Year: 1975, Month: 7, Number of Sales: 146, Revenue: 4104425.63
-68: Year: 1975, Month: 8, Number of Sales: 157, Revenue: 4317934.98
-69: Year: 1975, Month: 9, Number of Sales: 142, Revenue: 3603835.55
-70: Year: 1975, Month: 10, Number of Sales: 152, Revenue: 3772684.83
-71: Year: 1975, Month: 11, Number of Sales: 130, Revenue: 3058388.81
-72: Year: 1975, Month: 12, Number of Sales: 145, Revenue: 4061066.90
-73: Year: 1976, Month: 1, Number of Sales: 153, Revenue: 3631111.58
-74: Year: 1976, Month: 2, Number of Sales: 147, Revenue: 3969426.93
-75: Year: 1976, Month: 3, Number of Sales: 128, Revenue: 3616660.49
-76: Year: 1976, Month: 4, Number of Sales: 154, Revenue: 3773017.83
-77: Year: 1976, Month: 5, Number of Sales: 168, Revenue: 3972410.36
-78: Year: 1976, Month: 6, Number of Sales: 142, Revenue: 3369273.12
-79: Year: 1976, Month: 7, Number of Sales: 143, Revenue: 3872830.42
-80: Year: 1976, Month: 8, Number of Sales: 162, Revenue: 4487201.91
-81: Year: 1976, Month: 9, Number of Sales: 168, Revenue: 4476010.21
-82: Year: 1976, Month: 10, Number of Sales: 161, Revenue: 4341324.57
-83: Year: 1976, Month: 11, Number of Sales: 161, Revenue: 4165963.85
-84: Year: 1976, Month: 12, Number of Sales: 160, Revenue: 4172730.48
-85: Year: 1977, Month: 1, Number of Sales: 141, Revenue: 3678595.82
-86: Year: 1977, Month: 2, Number of Sales: 141, Revenue: 3647514.06
-87: Year: 1977, Month: 3, Number of Sales: 155, Revenue: 4010693.71
-88: Year: 1977, Month: 4, Number of Sales: 159, Revenue: 4084451.22
-89: Year: 1977, Month: 5, Number of Sales: 150, Revenue: 3680347.55
-90: Year: 1977, Month: 6, Number of Sales: 149, Revenue: 3552942.00
-91: Year: 1977, Month: 7, Number of Sales: 166, Revenue: 4394945.24
-92: Year: 1977, Month: 8, Number of Sales: 171, Revenue: 3929203.06
-93: Year: 1977, Month: 9, Number of Sales: 157, Revenue: 4111346.25
-94: Year: 1977, Month: 10, Number of Sales: 158, Revenue: 4508992.13
-95: Year: 1977, Month: 11, Number of Sales: 147, Revenue: 4033354.18
-96: Year: 1977, Month: 12, Number of Sales: 168, Revenue: 4062705.67
-97: Year: 1978, Month: 1, Number of Sales: 187, Revenue: 5223239.38
-98: Year: 1978, Month: 2, Number of Sales: 141, Revenue: 3703685.86
-99: Year: 1978, Month: 3, Number of Sales: 151, Revenue: 4190980.89
-100: Year: 1978, Month: 4, Number of Sales: 142, Revenue: 3756820.76
-101: Year: 1978, Month: 5, Number of Sales: 160, Revenue: 4317058.59
-102: Year: 1978, Month: 6, Number of Sales: 149, Revenue: 4081300.87
-103: Year: 1978, Month: 7, Number of Sales: 163, Revenue: 4196737.04
-104: Year: 1978, Month: 8, Number of Sales: 176, Revenue: 4582877.19
-105: Year: 1978, Month: 9, Number of Sales: 148, Revenue: 4290352.21
-106: Year: 1978, Month: 10, Number of Sales: 188, Revenue: 5195538.97
-107: Year: 1978, Month: 11, Number of Sales: 144, Revenue: 3749924.37
-108: Year: 1978, Month: 12, Number of Sales: 146, Revenue: 3632701.78
-109: Year: 1979, Month: 1, Number of Sales: 155, Revenue: 3824340.80
-110: Year: 1979, Month: 2, Number of Sales: 132, Revenue: 3752739.97
-111: Year: 1979, Month: 3, Number of Sales: 153, Revenue: 3757695.68
-112: Year: 1979, Month: 4, Number of Sales: 123, Revenue: 3079763.21
-113: Year: 1979, Month: 5, Number of Sales: 152, Revenue: 4136509.88
-114: Year: 1979, Month: 6, Number of Sales: 155, Revenue: 4622805.78
-115: Year: 1979, Month: 7, Number of Sales: 143, Revenue: 3808601.53
-116: Year: 1979, Month: 8, Number of Sales: 157, Revenue: 4566089.39
-117: Year: 1979, Month: 9, Number of Sales: 159, Revenue: 3980189.38
-118: Year: 1979, Month: 10, Number of Sales: 169, Revenue: 4553391.90
-119: Year: 1979, Month: 11, Number of Sales: 148, Revenue: 4090214.54
-120: Year: 1979, Month: 12, Number of Sales: 155, Revenue: 4158427.92
-121: Year: 1980, Month: 1, Number of Sales: 172, Revenue: 3966130.45
-122: Year: 1980, Month: 2, Number of Sales: 147, Revenue: 3815796.16
-123: Year: 1980, Month: 3, Number of Sales: 159, Revenue: 3940754.07
-124: Year: 1980, Month: 4, Number of Sales: 148, Revenue: 3874261.95
-125: Year: 1980, Month: 5, Number of Sales: 155, Revenue: 4099896.83
-126: Year: 1980, Month: 6, Number of Sales: 152, Revenue: 3749691.32
-127: Year: 1980, Month: 7, Number of Sales: 160, Revenue: 4239202.15
-128: Year: 1980, Month: 8, Number of Sales: 162, Revenue: 4084898.00
-129: Year: 1980, Month: 9, Number of Sales: 138, Revenue: 3542803.45
-130: Year: 1980, Month: 10, Number of Sales: 163, Revenue: 4363509.79
-131: Year: 1980, Month: 11, Number of Sales: 138, Revenue: 4021256.47
-132: Year: 1980, Month: 12, Number of Sales: 164, Revenue: 4363275.57
-133: Year: 1981, Month: 1, Number of Sales: 146, Revenue: 3460974.04
-134: Year: 1981, Month: 2, Number of Sales: 150, Revenue: 4092311.69
-135: Year: 1981, Month: 3, Number of Sales: 154, Revenue: 3834081.11
-136: Year: 1981, Month: 4, Number of Sales: 165, Revenue: 4602075.23
-137: Year: 1981, Month: 5, Number of Sales: 152, Revenue: 4227589.81
-138: Year: 1981, Month: 6, Number of Sales: 150, Revenue: 3704011.20
-139: Year: 1981, Month: 7, Number of Sales: 155, Revenue: 4297233.80
-140: Year: 1981, Month: 8, Number of Sales: 151, Revenue: 3431859.00
-141: Year: 1981, Month: 9, Number of Sales: 156, Revenue: 3830592.15
-142: Year: 1981, Month: 10, Number of Sales: 155, Revenue: 4238708.75
-143: Year: 1981, Month: 11, Number of Sales: 146, Revenue: 3668342.73
-144: Year: 1981, Month: 12, Number of Sales: 156, Revenue: 4678600.43
-145: Year: 1982, Month: 1, Number of Sales: 172, Revenue: 4342558.05
-146: Year: 1982, Month: 2, Number of Sales: 146, Revenue: 3313012.70
-147: Year: 1982, Month: 3, Number of Sales: 152, Revenue: 3680543.75
-148: Year: 1982, Month: 4, Number of Sales: 128, Revenue: 2936043.19
-149: Year: 1982, Month: 5, Number of Sales: 173, Revenue: 4238195.28
-150: Year: 1982, Month: 6, Number of Sales: 148, Revenue: 3830522.77
-151: Year: 1982, Month: 7, Number of Sales: 163, Revenue: 3558004.17
-152: Year: 1982, Month: 8, Number of Sales: 175, Revenue: 4072702.41
-153: Year: 1982, Month: 9, Number of Sales: 164, Revenue: 3650407.29
-154: Year: 1982, Month: 10, Number of Sales: 141, Revenue: 3954758.20
-155: Year: 1982, Month: 11, Number of Sales: 150, Revenue: 3950083.57
-156: Year: 1982, Month: 12, Number of Sales: 161, Revenue: 3418087.82
-157: Year: 1983, Month: 1, Number of Sales: 157, Revenue: 4172569.77
-158: Year: 1983, Month: 2, Number of Sales: 143, Revenue: 3294614.88
-159: Year: 1983, Month: 3, Number of Sales: 159, Revenue: 3393485.16
-160: Year: 1983, Month: 4, Number of Sales: 148, Revenue: 3918373.25
-161: Year: 1983, Month: 5, Number of Sales: 161, Revenue: 4285481.93
-162: Year: 1983, Month: 6, Number of Sales: 146, Revenue: 3765781.40
-163: Year: 1983, Month: 7, Number of Sales: 159, Revenue: 4153257.09
-164: Year: 1983, Month: 8, Number of Sales: 159, Revenue: 4028662.54
-165: Year: 1983, Month: 9, Number of Sales: 140, Revenue: 3590658.65
-166: Year: 1983, Month: 10, Number of Sales: 156, Revenue: 3750241.47
-167: Year: 1983, Month: 11, Number of Sales: 158, Revenue: 3869284.77
-168: Year: 1983, Month: 12, Number of Sales: 193, Revenue: 5472097.46
-169: Year: 1984, Month: 1, Number of Sales: 155, Revenue: 4223193.61
-170: Year: 1984, Month: 2, Number of Sales: 135, Revenue: 3296719.95
-171: Year: 1984, Month: 3, Number of Sales: 152, Revenue: 3808389.90
-172: Year: 1984, Month: 4, Number of Sales: 131, Revenue: 3642109.38
-173: Year: 1984, Month: 5, Number of Sales: 144, Revenue: 3725454.25
-174: Year: 1984, Month: 6, Number of Sales: 161, Revenue: 4138806.40
-175: Year: 1984, Month: 7, Number of Sales: 141, Revenue: 3898600.49
-176: Year: 1984, Month: 8, Number of Sales: 181, Revenue: 4147228.68
-177: Year: 1984, Month: 9, Number of Sales: 151, Revenue: 4052373.45
-178: Year: 1984, Month: 10, Number of Sales: 154, Revenue: 4159018.24
-179: Year: 1984, Month: 11, Number of Sales: 159, Revenue: 4183582.57
-180: Year: 1984, Month: 12, Number of Sales: 154, Revenue: 4244553.25
-181: Year: 1985, Month: 1, Number of Sales: 171, Revenue: 4630202.80
-182: Year: 1985, Month: 2, Number of Sales: 155, Revenue: 3753104.68
-183: Year: 1985, Month: 3, Number of Sales: 152, Revenue: 4111093.38
-184: Year: 1985, Month: 4, Number of Sales: 150, Revenue: 4194349.23
-185: Year: 1985, Month: 5, Number of Sales: 171, Revenue: 4351953.46
-186: Year: 1985, Month: 6, Number of Sales: 155, Revenue: 3740062.97
-187: Year: 1985, Month: 7, Number of Sales: 156, Revenue: 3640761.25
-188: Year: 1985, Month: 8, Number of Sales: 179, Revenue: 4191114.13
-189: Year: 1985, Month: 9, Number of Sales: 140, Revenue: 3275919.68
-190: Year: 1985, Month: 10, Number of Sales: 168, Revenue: 3853471.85
-191: Year: 1985, Month: 11, Number of Sales: 141, Revenue: 3443201.00
-192: Year: 1985, Month: 12, Number of Sales: 169, Revenue: 4098900.18
-193: Year: 1986, Month: 1, Number of Sales: 161, Revenue: 3787140.09
-194: Year: 1986, Month: 2, Number of Sales: 143, Revenue: 2830186.90
-195: Year: 1986, Month: 3, Number of Sales: 154, Revenue: 4698074.87
-196: Year: 1986, Month: 4, Number of Sales: 144, Revenue: 3126421.44
-197: Year: 1986, Month: 5, Number of Sales: 140, Revenue: 3572698.91
-198: Year: 1986, Month: 6, Number of Sales: 148, Revenue: 3667709.48
-199: Year: 1986, Month: 7, Number of Sales: 168, Revenue: 4525965.80
-200: Year: 1986, Month: 8, Number of Sales: 167, Revenue: 4302225.83
-201: Year: 1986, Month: 9, Number of Sales: 167, Revenue: 3633969.56
-202: Year: 1986, Month: 10, Number of Sales: 145, Revenue: 3955298.81
-203: Year: 1986, Month: 11, Number of Sales: 155, Revenue: 3614249.78
-204: Year: 1986, Month: 12, Number of Sales: 156, Revenue: 4121139.98
-205: Year: 1987, Month: 1, Number of Sales: 157, Revenue: 3813554.66
-206: Year: 1987, Month: 2, Number of Sales: 148, Revenue: 3748137.25
-207: Year: 1987, Month: 3, Number of Sales: 158, Revenue: 3548336.14
-208: Year: 1987, Month: 4, Number of Sales: 153, Revenue: 3622515.94
-209: Year: 1987, Month: 5, Number of Sales: 152, Revenue: 3317294.13
-210: Year: 1987, Month: 6, Number of Sales: 148, Revenue: 3642587.08
-211: Year: 1987, Month: 7, Number of Sales: 189, Revenue: 4899419.92
-212: Year: 1987, Month: 8, Number of Sales: 160, Revenue: 4334470.52
-213: Year: 1987, Month: 9, Number of Sales: 143, Revenue: 3589044.34
-214: Year: 1987, Month: 10, Number of Sales: 152, Revenue: 4097093.69
-215: Year: 1987, Month: 11, Number of Sales: 144, Revenue: 4149237.21
-216: Year: 1987, Month: 12, Number of Sales: 166, Revenue: 4052881.58
-217: Year: 1988, Month: 1, Number of Sales: 162, Revenue: 4001576.93
-218: Year: 1988, Month: 2, Number of Sales: 138, Revenue: 3621423.12
-219: Year: 1988, Month: 3, Number of Sales: 152, Revenue: 4176860.07
-220: Year: 1988, Month: 4, Number of Sales: 142, Revenue: 3930580.25
-221: Year: 1988, Month: 5, Number of Sales: 172, Revenue: 4304640.23
-222: Year: 1988, Month: 6, Number of Sales: 151, Revenue: 4302197.75
-223: Year: 1988, Month: 7, Number of Sales: 155, Revenue: 3826813.24
-224: Year: 1988, Month: 8, Number of Sales: 163, Revenue: 4593409.41
-225: Year: 1988, Month: 9, Number of Sales: 158, Revenue: 3668268.48
-226: Year: 1988, Month: 10, Number of Sales: 146, Revenue: 3725184.30
-227: Year: 1988, Month: 11, Number of Sales: 140, Revenue: 3370334.29
-228: Year: 1988, Month: 12, Number of Sales: 140, Revenue: 3295898.56
-229: Year: 1989, Month: 1, Number of Sales: 151, Revenue: 3790868.17
-230: Year: 1989, Month: 2, Number of Sales: 132, Revenue: 3382429.42
-231: Year: 1989, Month: 3, Number of Sales: 165, Revenue: 3855742.48
-232: Year: 1989, Month: 4, Number of Sales: 151, Revenue: 3884554.78
-233: Year: 1989, Month: 5, Number of Sales: 153, Revenue: 3776359.91
-234: Year: 1989, Month: 6, Number of Sales: 161, Revenue: 3915360.07
-235: Year: 1989, Month: 7, Number of Sales: 153, Revenue: 3820440.17
-236: Year: 1989, Month: 8, Number of Sales: 155, Revenue: 4002521.97
-237: Year: 1989, Month: 9, Number of Sales: 157, Revenue: 3864677.53
-238: Year: 1989, Month: 10, Number of Sales: 140, Revenue: 3450449.44
-239: Year: 1989, Month: 11, Number of Sales: 172, Revenue: 5027768.09
-240: Year: 1989, Month: 12, Number of Sales: 131, Revenue: 3325307.30
-241: Year: 1990, Month: 1, Number of Sales: 157, Revenue: 4344798.51
-242: Year: 1990, Month: 2, Number of Sales: 132, Revenue: 3401987.38
-243: Year: 1990, Month: 3, Number of Sales: 170, Revenue: 4533906.47
-244: Year: 1990, Month: 4, Number of Sales: 140, Revenue: 3734469.95
-245: Year: 1990, Month: 5, Number of Sales: 159, Revenue: 3945699.26
-246: Year: 1990, Month: 6, Number of Sales: 171, Revenue: 4516192.39
-247: Year: 1990, Month: 7, Number of Sales: 176, Revenue: 5259600.64
-248: Year: 1990, Month: 8, Number of Sales: 130, Revenue: 3368383.87
-249: Year: 1990, Month: 9, Number of Sales: 161, Revenue: 3919207.48
-250: Year: 1990, Month: 10, Number of Sales: 173, Revenue: 4859573.57
-251: Year: 1990, Month: 11, Number of Sales: 156, Revenue: 3982583.25
-252: Year: 1990, Month: 12, Number of Sales: 176, Revenue: 4448637.44
-253: Year: 1991, Month: 1, Number of Sales: 141, Revenue: 2981703.82
-254: Year: 1991, Month: 2, Number of Sales: 160, Revenue: 3976727.82
-255: Year: 1991, Month: 3, Number of Sales: 138, Revenue: 3381626.56
-256: Year: 1991, Month: 4, Number of Sales: 163, Revenue: 4138834.49
-257: Year: 1991, Month: 5, Number of Sales: 160, Revenue: 3652522.19
-258: Year: 1991, Month: 6, Number of Sales: 162, Revenue: 3929777.01
-259: Year: 1991, Month: 7, Number of Sales: 187, Revenue: 5181426.09
-260: Year: 1991, Month: 8, Number of Sales: 185, Revenue: 4178495.62
-261: Year: 1991, Month: 9, Number of Sales: 157, Revenue: 3906849.87
-262: Year: 1991, Month: 10, Number of Sales: 149, Revenue: 4020379.68
-263: Year: 1991, Month: 11, Number of Sales: 160, Revenue: 3502988.43
-264: Year: 1991, Month: 12, Number of Sales: 169, Revenue: 3727142.92
-265: Year: 1992, Month: 1, Number of Sales: 178, Revenue: 4645664.09
-266: Year: 1992, Month: 2, Number of Sales: 192, Revenue: 4592873.72
-267: Year: 1992, Month: 3, Number of Sales: 159, Revenue: 4251733.20
-268: Year: 1992, Month: 4, Number of Sales: 161, Revenue: 4498168.44
-269: Year: 1992, Month: 5, Number of Sales: 147, Revenue: 3948793.26
-270: Year: 1992, Month: 6, Number of Sales: 153, Revenue: 3645335.16
-271: Year: 1992, Month: 7, Number of Sales: 170, Revenue: 4107746.76
-272: Year: 1992, Month: 8, Number of Sales: 134, Revenue: 3407988.50
-273: Year: 1992, Month: 9, Number of Sales: 133, Revenue: 3595018.25
-274: Year: 1992, Month: 10, Number of Sales: 150, Revenue: 3506294.83
-275: Year: 1992, Month: 11, Number of Sales: 161, Revenue: 3712450.99
-276: Year: 1992, Month: 12, Number of Sales: 152, Revenue: 3935210.83
-277: Year: 1993, Month: 1, Number of Sales: 159, Revenue: 3518825.49
-278: Year: 1993, Month: 2, Number of Sales: 148, Revenue: 4373784.28
-279: Year: 1993, Month: 3, Number of Sales: 152, Revenue: 4006222.68
-280: Year: 1993, Month: 4, Number of Sales: 154, Revenue: 3724570.30
-281: Year: 1993, Month: 5, Number of Sales: 175, Revenue: 4062307.19
-282: Year: 1993, Month: 6, Number of Sales: 164, Revenue: 4146489.03
-283: Year: 1993, Month: 7, Number of Sales: 159, Revenue: 4196192.74
-284: Year: 1993, Month: 8, Number of Sales: 159, Revenue: 3556349.87
-285: Year: 1993, Month: 9, Number of Sales: 150, Revenue: 4162919.57
-286: Year: 1993, Month: 10, Number of Sales: 157, Revenue: 4092149.23
-287: Year: 1993, Month: 11, Number of Sales: 155, Revenue: 3708564.71
-288: Year: 1993, Month: 12, Number of Sales: 153, Revenue: 3888690.20
-289: Year: 1994, Month: 1, Number of Sales: 153, Revenue: 3664111.47
-290: Year: 1994, Month: 2, Number of Sales: 123, Revenue: 3105399.38
-291: Year: 1994, Month: 3, Number of Sales: 162, Revenue: 4009591.16
-292: Year: 1994, Month: 4, Number of Sales: 148, Revenue: 4383960.51
-293: Year: 1994, Month: 5, Number of Sales: 151, Revenue: 4127755.83
-294: Year: 1994, Month: 6, Number of Sales: 142, Revenue: 3535063.33
-295: Year: 1994, Month: 7, Number of Sales: 163, Revenue: 4016933.84
-296: Year: 1994, Month: 8, Number of Sales: 159, Revenue: 4057423.21
-297: Year: 1994, Month: 9, Number of Sales: 141, Revenue: 3732352.28
-298: Year: 1994, Month: 10, Number of Sales: 133, Revenue: 3364854.64
-299: Year: 1994, Month: 11, Number of Sales: 149, Revenue: 3828748.49
-300: Year: 1994, Month: 12, Number of Sales: 153, Revenue: 3768486.80
-301: Year: 1995, Month: 1, Number of Sales: 160, Revenue: 3878229.47
-302: Year: 1995, Month: 2, Number of Sales: 131, Revenue: 3209826.86
-303: Year: 1995, Month: 3, Number of Sales: 163, Revenue: 4103153.27
-304: Year: 1995, Month: 4, Number of Sales: 163, Revenue: 4414690.70
-305: Year: 1995, Month: 5, Number of Sales: 152, Revenue: 3769139.09
-306: Year: 1995, Month: 6, Number of Sales: 149, Revenue: 3838342.55
-307: Year: 1995, Month: 7, Number of Sales: 161, Revenue: 3502584.29
-308: Year: 1995, Month: 8, Number of Sales: 153, Revenue: 3950503.20
-309: Year: 1995, Month: 9, Number of Sales: 141, Revenue: 3962208.36
-310: Year: 1995, Month: 10, Number of Sales: 166, Revenue: 3998119.40
-311: Year: 1995, Month: 11, Number of Sales: 143, Revenue: 3009187.94
-312: Year: 1995, Month: 12, Number of Sales: 160, Revenue: 4172759.90
-313: Year: 1996, Month: 1, Number of Sales: 156, Revenue: 4115400.14
-314: Year: 1996, Month: 2, Number of Sales: 130, Revenue: 3087863.32
-315: Year: 1996, Month: 3, Number of Sales: 149, Revenue: 3488363.15
-316: Year: 1996, Month: 4, Number of Sales: 146, Revenue: 4099196.26
-317: Year: 1996, Month: 5, Number of Sales: 172, Revenue: 4375044.88
-318: Year: 1996, Month: 6, Number of Sales: 171, Revenue: 3858082.63
-319: Year: 1996, Month: 7, Number of Sales: 142, Revenue: 3026295.28
-320: Year: 1996, Month: 8, Number of Sales: 161, Revenue: 3954459.80
-321: Year: 1996, Month: 9, Number of Sales: 156, Revenue: 3812603.50
-322: Year: 1996, Month: 10, Number of Sales: 153, Revenue: 3710064.02
-323: Year: 1996, Month: 11, Number of Sales: 138, Revenue: 3232968.60
-324: Year: 1996, Month: 12, Number of Sales: 147, Revenue: 3334628.70
-325: Year: 1997, Month: 1, Number of Sales: 141, Revenue: 3526123.88
-326: Year: 1997, Month: 2, Number of Sales: 126, Revenue: 3656221.14
-327: Year: 1997, Month: 3, Number of Sales: 153, Revenue: 4113723.18
-328: Year: 1997, Month: 4, Number of Sales: 186, Revenue: 4553398.78
-329: Year: 1997, Month: 5, Number of Sales: 148, Revenue: 3925700.60
-330: Year: 1997, Month: 6, Number of Sales: 154, Revenue: 4109269.88
-331: Year: 1997, Month: 7, Number of Sales: 161, Revenue: 4480656.87
-332: Year: 1997, Month: 8, Number of Sales: 155, Revenue: 3864444.69
-333: Year: 1997, Month: 9, Number of Sales: 162, Revenue: 3954178.57
-334: Year: 1997, Month: 10, Number of Sales: 143, Revenue: 3784135.19
-335: Year: 1997, Month: 11, Number of Sales: 156, Revenue: 3782442.14
-336: Year: 1997, Month: 12, Number of Sales: 181, Revenue: 4887951.79
-337: Year: 1998, Month: 1, Number of Sales: 156, Revenue: 3706147.65
-338: Year: 1998, Month: 2, Number of Sales: 152, Revenue: 3741013.99
-339: Year: 1998, Month: 3, Number of Sales: 164, Revenue: 4003461.83
-340: Year: 1998, Month: 4, Number of Sales: 152, Revenue: 3532877.67
-341: Year: 1998, Month: 5, Number of Sales: 169, Revenue: 4418241.25
-342: Year: 1998, Month: 6, Number of Sales: 144, Revenue: 3780315.89
-343: Year: 1998, Month: 7, Number of Sales: 146, Revenue: 3765761.96
-344: Year: 1998, Month: 8, Number of Sales: 176, Revenue: 4146021.08
-345: Year: 1998, Month: 9, Number of Sales: 143, Revenue: 3393988.74
-346: Year: 1998, Month: 10, Number of Sales: 163, Revenue: 4076171.36
-347: Year: 1998, Month: 11, Number of Sales: 148, Revenue: 3368885.63
-348: Year: 1998, Month: 12, Number of Sales: 150, Revenue: 3499433.46
-349: Year: 1999, Month: 1, Number of Sales: 150, Revenue: 3378845.20
-350: Year: 1999, Month: 2, Number of Sales: 127, Revenue: 3270614.63
-351: Year: 1999, Month: 3, Number of Sales: 153, Revenue: 3523444.49
-352: Year: 1999, Month: 4, Number of Sales: 144, Revenue: 3753931.97
-353: Year: 1999, Month: 5, Number of Sales: 150, Revenue: 3900775.94
-354: Year: 1999, Month: 6, Number of Sales: 150, Revenue: 3881339.32
-355: Year: 1999, Month: 7, Number of Sales: 156, Revenue: 3864462.17
-356: Year: 1999, Month: 8, Number of Sales: 161, Revenue: 4158331.64
-357: Year: 1999, Month: 9, Number of Sales: 162, Revenue: 4088449.48
-358: Year: 1999, Month: 10, Number of Sales: 169, Revenue: 4010999.13
-359: Year: 1999, Month: 11, Number of Sales: 158, Revenue: 3868741.69
-360: Year: 1999, Month: 12, Number of Sales: 154, Revenue: 3951112.61
-361: Year: 2000, Month: 1, Number of Sales: 174, Revenue: 4623507.49
-362: Year: 2000, Month: 2, Number of Sales: 143, Revenue: 3438053.68
-363: Year: 2000, Month: 3, Number of Sales: 173, Revenue: 4100726.57
-364: Year: 2000, Month: 4, Number of Sales: 127, Revenue: 3372127.95
-365: Year: 2000, Month: 5, Number of Sales: 142, Revenue: 3526496.28
-366: Year: 2000, Month: 6, Number of Sales: 141, Revenue: 3675858.34
-367: Year: 2000, Month: 7, Number of Sales: 162, Revenue: 4140080.33
-368: Year: 2000, Month: 8, Number of Sales: 151, Revenue: 4344270.54
-369: Year: 2000, Month: 9, Number of Sales: 162, Revenue: 4035974.72
-370: Year: 2000, Month: 10, Number of Sales: 147, Revenue: 4237274.10
-371: Year: 2000, Month: 11, Number of Sales: 165, Revenue: 3847140.92
-372: Year: 2000, Month: 12, Number of Sales: 157, Revenue: 3631565.63
-373: Year: 2001, Month: 1, Number of Sales: 151, Revenue: 3547956.11
-374: Year: 2001, Month: 2, Number of Sales: 128, Revenue: 3559540.19
-375: Year: 2001, Month: 3, Number of Sales: 172, Revenue: 4533848.34
-376: Year: 2001, Month: 4, Number of Sales: 151, Revenue: 3756078.73
-377: Year: 2001, Month: 5, Number of Sales: 157, Revenue: 4362708.14
-378: Year: 2001, Month: 6, Number of Sales: 158, Revenue: 4247546.08
-379: Year: 2001, Month: 7, Number of Sales: 161, Revenue: 4269096.26
-380: Year: 2001, Month: 8, Number of Sales: 151, Revenue: 4094368.00
-381: Year: 2001, Month: 9, Number of Sales: 163, Revenue: 4187080.52
-382: Year: 2001, Month: 10, Number of Sales: 165, Revenue: 4431615.12
-383: Year: 2001, Month: 11, Number of Sales: 145, Revenue: 3460622.29
-384: Year: 2001, Month: 12, Number of Sales: 145, Revenue: 3754439.85
-385: Year: 2002, Month: 1, Number of Sales: 123, Revenue: 3018393.93
-386: Year: 2002, Month: 2, Number of Sales: 147, Revenue: 3856687.25
-387: Year: 2002, Month: 3, Number of Sales: 168, Revenue: 4159543.52
-388: Year: 2002, Month: 4, Number of Sales: 146, Revenue: 3792231.14
-389: Year: 2002, Month: 5, Number of Sales: 151, Revenue: 3922681.57
-390: Year: 2002, Month: 6, Number of Sales: 172, Revenue: 4274833.48
-391: Year: 2002, Month: 7, Number of Sales: 173, Revenue: 4672893.44
-392: Year: 2002, Month: 8, Number of Sales: 144, Revenue: 3556179.25
-393: Year: 2002, Month: 9, Number of Sales: 131, Revenue: 3450412.40
-394: Year: 2002, Month: 10, Number of Sales: 160, Revenue: 4339090.57
-395: Year: 2002, Month: 11, Number of Sales: 167, Revenue: 4232212.11
-396: Year: 2002, Month: 12, Number of Sales: 149, Revenue: 3476560.73
-397: Year: 2003, Month: 1, Number of Sales: 162, Revenue: 4494601.63
-398: Year: 2003, Month: 2, Number of Sales: 145, Revenue: 3972518.98
-399: Year: 2003, Month: 3, Number of Sales: 156, Revenue: 4130750.86
-400: Year: 2003, Month: 4, Number of Sales: 147, Revenue: 3749994.53
-401: Year: 2003, Month: 5, Number of Sales: 155, Revenue: 4018877.58
-402: Year: 2003, Month: 6, Number of Sales: 161, Revenue: 4017655.78
-403: Year: 2003, Month: 7, Number of Sales: 174, Revenue: 4493589.31
-404: Year: 2003, Month: 8, Number of Sales: 157, Revenue: 3797527.31
-405: Year: 2003, Month: 9, Number of Sales: 152, Revenue: 4441166.11
-406: Year: 2003, Month: 10, Number of Sales: 144, Revenue: 3739307.82
-407: Year: 2003, Month: 11, Number of Sales: 146, Revenue: 3925913.06
-408: Year: 2003, Month: 12, Number of Sales: 152, Revenue: 3611787.22
-409: Year: 2004, Month: 1, Number of Sales: 154, Revenue: 4395545.15
-410: Year: 2004, Month: 2, Number of Sales: 136, Revenue: 3014741.69
-411: Year: 2004, Month: 3, Number of Sales: 156, Revenue: 3726838.04
-412: Year: 2004, Month: 4, Number of Sales: 172, Revenue: 4285270.03
-413: Year: 2004, Month: 5, Number of Sales: 167, Revenue: 4067991.09
-414: Year: 2004, Month: 6, Number of Sales: 145, Revenue: 3857006.73
-415: Year: 2004, Month: 7, Number of Sales: 158, Revenue: 4063916.12
-416: Year: 2004, Month: 8, Number of Sales: 147, Revenue: 3866245.87
-417: Year: 2004, Month: 9, Number of Sales: 152, Revenue: 3563815.82
-418: Year: 2004, Month: 10, Number of Sales: 153, Revenue: 3973017.41
-419: Year: 2004, Month: 11, Number of Sales: 164, Revenue: 3819167.12
-420: Year: 2004, Month: 12, Number of Sales: 160, Revenue: 4697215.27
-421: Year: 2005, Month: 1, Number of Sales: 133, Revenue: 3286449.67
-422: Year: 2005, Month: 2, Number of Sales: 163, Revenue: 4333952.58
-423: Year: 2005, Month: 3, Number of Sales: 171, Revenue: 4442558.91
-424: Year: 2005, Month: 4, Number of Sales: 138, Revenue: 3736936.04
-425: Year: 2005, Month: 5, Number of Sales: 154, Revenue: 4043617.20
-426: Year: 2005, Month: 6, Number of Sales: 159, Revenue: 3816257.46
-427: Year: 2005, Month: 7, Number of Sales: 155, Revenue: 3670321.63
-428: Year: 2005, Month: 8, Number of Sales: 158, Revenue: 3998489.61
-429: Year: 2005, Month: 9, Number of Sales: 158, Revenue: 4444491.42
-430: Year: 2005, Month: 10, Number of Sales: 154, Revenue: 3959348.25
-431: Year: 2005, Month: 11, Number of Sales: 168, Revenue: 4330064.41
-432: Year: 2005, Month: 12, Number of Sales: 162, Revenue: 4350713.10
-433: Year: 2006, Month: 1, Number of Sales: 163, Revenue: 4265372.65
-434: Year: 2006, Month: 2, Number of Sales: 142, Revenue: 3071016.16
-435: Year: 2006, Month: 3, Number of Sales: 168, Revenue: 4537298.41
-436: Year: 2006, Month: 4, Number of Sales: 144, Revenue: 3535848.89
-437: Year: 2006, Month: 5, Number of Sales: 155, Revenue: 4047099.19
-438: Year: 2006, Month: 6, Number of Sales: 152, Revenue: 3609110.71
-439: Year: 2006, Month: 7, Number of Sales: 147, Revenue: 4064797.35
-440: Year: 2006, Month: 8, Number of Sales: 169, Revenue: 4157197.21
-441: Year: 2006, Month: 9, Number of Sales: 142, Revenue: 3627350.13
-442: Year: 2006, Month: 10, Number of Sales: 162, Revenue: 3454458.15
-443: Year: 2006, Month: 11, Number of Sales: 156, Revenue: 3276543.10
-444: Year: 2006, Month: 12, Number of Sales: 144, Revenue: 3490899.58
-445: Year: 2007, Month: 1, Number of Sales: 156, Revenue: 3622520.24
-446: Year: 2007, Month: 2, Number of Sales: 135, Revenue: 3352217.34
-447: Year: 2007, Month: 3, Number of Sales: 165, Revenue: 3888527.72
-448: Year: 2007, Month: 4, Number of Sales: 162, Revenue: 3811507.82
-449: Year: 2007, Month: 5, Number of Sales: 160, Revenue: 3620238.87
-450: Year: 2007, Month: 6, Number of Sales: 141, Revenue: 3763585.51
-451: Year: 2007, Month: 7, Number of Sales: 152, Revenue: 3522359.78
-452: Year: 2007, Month: 8, Number of Sales: 172, Revenue: 5003438.64
-453: Year: 2007, Month: 9, Number of Sales: 133, Revenue: 2981969.14
-454: Year: 2007, Month: 10, Number of Sales: 163, Revenue: 4232429.37
-455: Year: 2007, Month: 11, Number of Sales: 146, Revenue: 3847082.16
-456: Year: 2007, Month: 12, Number of Sales: 161, Revenue: 3758239.70
-457: Year: 2008, Month: 1, Number of Sales: 162, Revenue: 3525598.20
-458: Year: 2008, Month: 2, Number of Sales: 126, Revenue: 2934585.58
-459: Year: 2008, Month: 3, Number of Sales: 161, Revenue: 3374643.40
-460: Year: 2008, Month: 4, Number of Sales: 155, Revenue: 3809491.41
-461: Year: 2008, Month: 5, Number of Sales: 158, Revenue: 3766929.60
-462: Year: 2008, Month: 6, Number of Sales: 162, Revenue: 4159874.44
-463: Year: 2008, Month: 7, Number of Sales: 147, Revenue: 3947871.12
-464: Year: 2008, Month: 8, Number of Sales: 159, Revenue: 4236691.90
-465: Year: 2008, Month: 9, Number of Sales: 142, Revenue: 3262975.02
-466: Year: 2008, Month: 10, Number of Sales: 138, Revenue: 3816276.94
-467: Year: 2008, Month: 11, Number of Sales: 147, Revenue: 3527587.94
-468: Year: 2008, Month: 12, Number of Sales: 148, Revenue: 3824692.04
-469: Year: 2009, Month: 1, Number of Sales: 163, Revenue: 4590940.61
-470: Year: 2009, Month: 2, Number of Sales: 153, Revenue: 3956345.36
-471: Year: 2009, Month: 3, Number of Sales: 136, Revenue: 2827360.96
-472: Year: 2009, Month: 4, Number of Sales: 158, Revenue: 4007447.06
-473: Year: 2009, Month: 5, Number of Sales: 150, Revenue: 4193945.36
-474: Year: 2009, Month: 6, Number of Sales: 128, Revenue: 3661499.07
-475: Year: 2009, Month: 7, Number of Sales: 136, Revenue: 3849277.03
-476: Year: 2009, Month: 8, Number of Sales: 167, Revenue: 3980348.15
-477: Year: 2009, Month: 9, Number of Sales: 161, Revenue: 4562926.03
-478: Year: 2009, Month: 10, Number of Sales: 183, Revenue: 4565338.99
-479: Year: 2009, Month: 11, Number of Sales: 147, Revenue: 3747054.02
-480: Year: 2009, Month: 12, Number of Sales: 177, Revenue: 4513345.94
-481: Year: 2010, Month: 1, Number of Sales: 167, Revenue: 4622892.61
-482: Year: 2010, Month: 2, Number of Sales: 126, Revenue: 2858857.73
-483: Year: 2010, Month: 3, Number of Sales: 141, Revenue: 3381830.77
-484: Year: 2010, Month: 4, Number of Sales: 154, Revenue: 3985037.41
-485: Year: 2010, Month: 5, Number of Sales: 165, Revenue: 4219353.52
-486: Year: 2010, Month: 6, Number of Sales: 161, Revenue: 3929712.50
-487: Year: 2010, Month: 7, Number of Sales: 160, Revenue: 4185873.52
-488: Year: 2010, Month: 8, Number of Sales: 153, Revenue: 3618939.81
-489: Year: 2010, Month: 9, Number of Sales: 152, Revenue: 3941769.17
-490: Year: 2010, Month: 10, Number of Sales: 156, Revenue: 4407077.97
-491: Year: 2010, Month: 11, Number of Sales: 159, Revenue: 3655672.92
-492: Year: 2010, Month: 12, Number of Sales: 165, Revenue: 4036385.81
-493: Year: 2011, Month: 1, Number of Sales: 157, Revenue: 4146212.41
-494: Year: 2011, Month: 2, Number of Sales: 136, Revenue: 3392789.29
-495: Year: 2011, Month: 3, Number of Sales: 164, Revenue: 4267483.57
-496: Year: 2011, Month: 4, Number of Sales: 179, Revenue: 3996467.90
-497: Year: 2011, Month: 5, Number of Sales: 135, Revenue: 3091684.71
-498: Year: 2011, Month: 6, Number of Sales: 156, Revenue: 3939546.00
-499: Year: 2011, Month: 7, Number of Sales: 139, Revenue: 3255593.81
-500: Year: 2011, Month: 8, Number of Sales: 140, Revenue: 3688975.46
-501: Year: 2011, Month: 9, Number of Sales: 163, Revenue: 4039903.79
-502: Year: 2011, Month: 10, Number of Sales: 171, Revenue: 4145006.08
-503: Year: 2011, Month: 11, Number of Sales: 157, Revenue: 4139202.98
-504: Year: 2011, Month: 12, Number of Sales: 162, Revenue: 4229486.37
-505: Year: 2012, Month: 1, Number of Sales: 156, Revenue: 3838434.02
-506: Year: 2012, Month: 2, Number of Sales: 146, Revenue: 3783866.75
-507: Year: 2012, Month: 3, Number of Sales: 164, Revenue: 4496545.69
-508: Year: 2012, Month: 4, Number of Sales: 169, Revenue: 4271912.82
-509: Year: 2012, Month: 5, Number of Sales: 154, Revenue: 3985464.68
-510: Year: 2012, Month: 6, Number of Sales: 138, Revenue: 3618387.32
-511: Year: 2012, Month: 7, Number of Sales: 162, Revenue: 4754432.21
-512: Year: 2012, Month: 8, Number of Sales: 168, Revenue: 3954294.81
-513: Year: 2012, Month: 9, Number of Sales: 160, Revenue: 3503363.95
-514: Year: 2012, Month: 10, Number of Sales: 141, Revenue: 3468568.24
-515: Year: 2012, Month: 11, Number of Sales: 152, Revenue: 3699997.52
-516: Year: 2012, Month: 12, Number of Sales: 181, Revenue: 5118206.75
-517: Year: 2013, Month: 1, Number of Sales: 138, Revenue: 3815125.43
-518: Year: 2013, Month: 2, Number of Sales: 146, Revenue: 3635906.01
-519: Year: 2013, Month: 3, Number of Sales: 161, Revenue: 3823719.15
-520: Year: 2013, Month: 4, Number of Sales: 153, Revenue: 3760890.58
-521: Year: 2013, Month: 5, Number of Sales: 145, Revenue: 3653588.32
-522: Year: 2013, Month: 6, Number of Sales: 131, Revenue: 2640071.64
-523: Year: 2013, Month: 7, Number of Sales: 161, Revenue: 4262142.20
-524: Year: 2013, Month: 8, Number of Sales: 178, Revenue: 4750175.51
-525: Year: 2013, Month: 9, Number of Sales: 140, Revenue: 3214868.22
-526: Year: 2013, Month: 10, Number of Sales: 164, Revenue: 4400321.20
-527: Year: 2013, Month: 11, Number of Sales: 146, Revenue: 3397575.74
-528: Year: 2013, Month: 12, Number of Sales: 146, Revenue: 3913804.71
-529: Year: 2014, Month: 1, Number of Sales: 163, Revenue: 4576928.83
-530: Year: 2014, Month: 2, Number of Sales: 141, Revenue: 3785774.89
-531: Year: 2014, Month: 3, Number of Sales: 152, Revenue: 3732329.30
-532: Year: 2014, Month: 4, Number of Sales: 144, Revenue: 3766802.00
-533: Year: 2014, Month: 5, Number of Sales: 162, Revenue: 4068290.61
-534: Year: 2014, Month: 6, Number of Sales: 157, Revenue: 4092028.83
-535: Year: 2014, Month: 7, Number of Sales: 177, Revenue: 3788159.77
-536: Year: 2014, Month: 8, Number of Sales: 159, Revenue: 3968585.20
-537: Year: 2014, Month: 9, Number of Sales: 170, Revenue: 4087950.52
-538: Year: 2014, Month: 10, Number of Sales: 142, Revenue: 3826655.40
-539: Year: 2014, Month: 11, Number of Sales: 159, Revenue: 4319241.61
-540: Year: 2014, Month: 12, Number of Sales: 160, Revenue: 3809643.35
-541: Year: 2015, Month: 1, Number of Sales: 152, Revenue: 4195232.15
-542: Year: 2015, Month: 2, Number of Sales: 131, Revenue: 3451994.68
-543: Year: 2015, Month: 3, Number of Sales: 158, Revenue: 3692798.59
-544: Year: 2015, Month: 4, Number of Sales: 172, Revenue: 4165158.84
-545: Year: 2015, Month: 5, Number of Sales: 171, Revenue: 4140447.49
-546: Year: 2015, Month: 6, Number of Sales: 137, Revenue: 3350055.56
-547: Year: 2015, Month: 7, Number of Sales: 144, Revenue: 3536096.03
-548: Year: 2015, Month: 8, Number of Sales: 150, Revenue: 4004764.02
-549: Year: 2015, Month: 9, Number of Sales: 140, Revenue: 3119353.58
-550: Year: 2015, Month: 10, Number of Sales: 163, Revenue: 4176972.60
-551: Year: 2015, Month: 11, Number of Sales: 140, Revenue: 3424498.00
-552: Year: 2015, Month: 12, Number of Sales: 147, Revenue: 3746699.07
-553: Year: 2016, Month: 1, Number of Sales: 158, Revenue: 3976244.70
-554: Year: 2016, Month: 2, Number of Sales: 159, Revenue: 3780604.31
-555: Year: 2016, Month: 3, Number of Sales: 190, Revenue: 4669048.66
-556: Year: 2016, Month: 4, Number of Sales: 150, Revenue: 3968917.54
-557: Year: 2016, Month: 5, Number of Sales: 146, Revenue: 3905395.13
-558: Year: 2016, Month: 6, Number of Sales: 178, Revenue: 4633134.90
-559: Year: 2016, Month: 7, Number of Sales: 165, Revenue: 4737873.75
-560: Year: 2016, Month: 8, Number of Sales: 150, Revenue: 4037504.12
-561: Year: 2016, Month: 9, Number of Sales: 162, Revenue: 4088875.85
-562: Year: 2016, Month: 10, Number of Sales: 156, Revenue: 4081120.29
-563: Year: 2016, Month: 11, Number of Sales: 158, Revenue: 4241569.10
-564: Year: 2016, Month: 12, Number of Sales: 177, Revenue: 4535209.94
-565: Year: 2017, Month: 1, Number of Sales: 157, Revenue: 3859720.15
-566: Year: 2017, Month: 2, Number of Sales: 126, Revenue: 3724422.85
-567: Year: 2017, Month: 3, Number of Sales: 149, Revenue: 4026889.02
-568: Year: 2017, Month: 4, Number of Sales: 150, Revenue: 3826984.43
-569: Year: 2017, Month: 5, Number of Sales: 157, Revenue: 4261162.15
-570: Year: 2017, Month: 6, Number of Sales: 156, Revenue: 4029783.28
-571: Year: 2017, Month: 7, Number of Sales: 163, Revenue: 4053991.77
-572: Year: 2017, Month: 8, Number of Sales: 147, Revenue: 4241368.87
-573: Year: 2017, Month: 9, Number of Sales: 165, Revenue: 4622024.60
-574: Year: 2017, Month: 10, Number of Sales: 159, Revenue: 4085586.72
-575: Year: 2017, Month: 11, Number of Sales: 177, Revenue: 4459875.57
-576: Year: 2017, Month: 12, Number of Sales: 168, Revenue: 3688739.28
-577: Year: 2018, Month: 1, Number of Sales: 180, Revenue: 4645370.35
-578: Year: 2018, Month: 2, Number of Sales: 147, Revenue: 3485263.79
-579: Year: 2018, Month: 3, Number of Sales: 136, Revenue: 3263939.05
-580: Year: 2018, Month: 4, Number of Sales: 150, Revenue: 3510826.11
-581: Year: 2018, Month: 5, Number of Sales: 156, Revenue: 3840900.76
-582: Year: 2018, Month: 6, Number of Sales: 150, Revenue: 4050022.07
-583: Year: 2018, Month: 7, Number of Sales: 155, Revenue: 3932121.66
-584: Year: 2018, Month: 8, Number of Sales: 170, Revenue: 4616160.01
-585: Year: 2018, Month: 9, Number of Sales: 140, Revenue: 3487924.38
-586: Year: 2018, Month: 10, Number of Sales: 154, Revenue: 3970663.18
-587: Year: 2018, Month: 11, Number of Sales: 135, Revenue: 3912392.67
-588: Year: 2018, Month: 12, Number of Sales: 186, Revenue: 4967221.34
-589: Year: 2019, Month: 1, Number of Sales: 166, Revenue: 4514549.87
-590: Year: 2019, Month: 2, Number of Sales: 133, Revenue: 3295012.81
-591: Year: 2019, Month: 3, Number of Sales: 150, Revenue: 3512522.99
-592: Year: 2019, Month: 4, Number of Sales: 135, Revenue: 3835951.41
-593: Year: 2019, Month: 5, Number of Sales: 155, Revenue: 3840590.94
-594: Year: 2019, Month: 6, Number of Sales: 154, Revenue: 4363136.76
-595: Year: 2019, Month: 7, Number of Sales: 163, Revenue: 4502696.25
-596: Year: 2019, Month: 8, Number of Sales: 149, Revenue: 4064629.68
-597: Year: 2019, Month: 9, Number of Sales: 139, Revenue: 3504416.27
-598: Year: 2019, Month: 10, Number of Sales: 142, Revenue: 3334509.98
-599: Year: 2019, Month: 11, Number of Sales: 147, Revenue: 3828772.55
-600: Year: 2019, Month: 12, Number of Sales: 168, Revenue: 4495515.47
-601: Year: 2020, Month: 1, Number of Sales: 166, Revenue: 3892177.05
-602: Year: 2020, Month: 2, Number of Sales: 154, Revenue: 4115380.51
-603: Year: 2020, Month: 3, Number of Sales: 154, Revenue: 3760913.46
-604: Year: 2020, Month: 4, Number of Sales: 142, Revenue: 3392139.08
-605: Year: 2020, Month: 5, Number of Sales: 146, Revenue: 3745607.31
-606: Year: 2020, Month: 6, Number of Sales: 133, Revenue: 3272431.29
-607: Year: 2020, Month: 7, Number of Sales: 156, Revenue: 3881681.73
-608: Year: 2020, Month: 8, Number of Sales: 159, Revenue: 4183194.38
-609: Year: 2020, Month: 9, Number of Sales: 150, Revenue: 3797774.04
-610: Year: 2020, Month: 10, Number of Sales: 157, Revenue: 3881759.76
-611: Year: 2020, Month: 11, Number of Sales: 170, Revenue: 4554308.76
-612: Year: 2020, Month: 12, Number of Sales: 154, Revenue: 4063230.53
-613: Year: 2021, Month: 1, Number of Sales: 167, Revenue: 3982885.72
-614: Year: 2021, Month: 2, Number of Sales: 146, Revenue: 3769256.48
-615: Year: 2021, Month: 3, Number of Sales: 137, Revenue: 3087178.35
-616: Year: 2021, Month: 4, Number of Sales: 134, Revenue: 2993697.82
-617: Year: 2021, Month: 5, Number of Sales: 149, Revenue: 3995725.76
-618: Year: 2021, Month: 6, Number of Sales: 155, Revenue: 3788548.14
-619: Year: 2021, Month: 7, Number of Sales: 144, Revenue: 3783017.86
-620: Year: 2021, Month: 8, Number of Sales: 154, Revenue: 3778350.62
-621: Year: 2021, Month: 9, Number of Sales: 131, Revenue: 3000876.73
-622: Year: 2021, Month: 10, Number of Sales: 146, Revenue: 3800618.26
-623: Year: 2021, Month: 11, Number of Sales: 161, Revenue: 4253320.94
-624: Year: 2021, Month: 12, Number of Sales: 151, Revenue: 3722569.06
-625: Year: 2022, Month: 1, Number of Sales: 151, Revenue: 3417970.59
-626: Year: 2022, Month: 2, Number of Sales: 145, Revenue: 3453508.34
-627: Year: 2022, Month: 3, Number of Sales: 179, Revenue: 4600455.35
-628: Year: 2022, Month: 4, Number of Sales: 161, Revenue: 4322284.49
-629: Year: 2022, Month: 5, Number of Sales: 146, Revenue: 3841538.01
-630: Year: 2022, Month: 6, Number of Sales: 161, Revenue: 4439036.37
-631: Year: 2022, Month: 7, Number of Sales: 138, Revenue: 3440457.34
-632: Year: 2022, Month: 8, Number of Sales: 157, Revenue: 3952519.68
-633: Year: 2022, Month: 9, Number of Sales: 122, Revenue: 3713806.33
-634: Year: 2022, Month: 10, Number of Sales: 170, Revenue: 4365072.05
-635: Year: 2022, Month: 11, Number of Sales: 134, Revenue: 3383431.82
-636: Year: 2022, Month: 12, Number of Sales: 178, Revenue: 4844766.89
-637: Year: 2023, Month: 1, Number of Sales: 175, Revenue: 3836640.34
-638: Year: 2023, Month: 2, Number of Sales: 140, Revenue: 3724339.08
-639: Year: 2023, Month: 3, Number of Sales: 152, Revenue: 3874409.66
-640: Year: 2023, Month: 4, Number of Sales: 147, Revenue: 3988349.06
-641: Year: 2023, Month: 5, Number of Sales: 173, Revenue: 4241710.33
-642: Year: 2023, Month: 6, Number of Sales: 184, Revenue: 4921753.12
-643: Year: 2023, Month: 7, Number of Sales: 153, Revenue: 3708227.75
-644: Year: 2023, Month: 8, Number of Sales: 148, Revenue: 3795261.47
-645: Year: 2023, Month: 9, Number of Sales: 148, Revenue: 4020730.44
-646: Year: 2023, Month: 10, Number of Sales: 148, Revenue: 4078772.01
-647: Year: 2023, Month: 11, Number of Sales: 154, Revenue: 3981094.09
-648: Year: 2023, Month: 12, Number of Sales: 153, Revenue: 3698501.19
-649: Year: 2024, Month: 1, Number of Sales: 152, Revenue: 3789484.50
-650: Year: 2024, Month: 2, Number of Sales: 76, Revenue: 1943383.38
+1: Product: administration, Number of Sales: 120, Revenue: 3758680.40
+2: Product: significant, Number of Sales: 126, Revenue: 3714616.70
+3: Product: western, Number of Sales: 116, Revenue: 3652756.51
+4: Product: site, Number of Sales: 120, Revenue: 3598013.25
+5: Product: deal, Number of Sales: 127, Revenue: 3576701.77
+6: Product: just, Number of Sales: 126, Revenue: 3552835.62
+7: Product: the, Number of Sales: 129, Revenue: 3538812.92
+8: Product: be, Number of Sales: 118, Revenue: 3452491.22
+9: Product: service, Number of Sales: 136, Revenue: 3427459.67
+10: Product: begin, Number of Sales: 130, Revenue: 3421395.35
+11: Product: strategy, Number of Sales: 124, Revenue: 3404727.19
+12: Product: show, Number of Sales: 128, Revenue: 3402188.47
+13: Product: character, Number of Sales: 126, Revenue: 3376872.51
+14: Product: necessary, Number of Sales: 127, Revenue: 3375902.13
+15: Product: campaign, Number of Sales: 116, Revenue: 3369223.89
+16: Product: trial, Number of Sales: 118, Revenue: 3366341.31
+17: Product: bed, Number of Sales: 117, Revenue: 3364923.57
+18: Product: stock, Number of Sales: 115, Revenue: 3360518.02
+19: Product: thank, Number of Sales: 111, Revenue: 3358595.86
+20: Product: it, Number of Sales: 116, Revenue: 3351150.53
+21: Product: state, Number of Sales: 115, Revenue: 3350748.76
+22: Product: interview, Number of Sales: 111, Revenue: 3340657.88
+23: Product: capital, Number of Sales: 118, Revenue: 3335986.90
+24: Product: official, Number of Sales: 124, Revenue: 3310490.68
+25: Product: open, Number of Sales: 123, Revenue: 3287147.15
+26: Product: however, Number of Sales: 126, Revenue: 3282514.80
+27: Product: education, Number of Sales: 121, Revenue: 3281264.50
+28: Product: democratic, Number of Sales: 115, Revenue: 3276786.42
+29: Product: high, Number of Sales: 115, Revenue: 3269683.73
+30: Product: staff, Number of Sales: 118, Revenue: 3265869.54
+31: Product: research, Number of Sales: 131, Revenue: 3265082.65
+32: Product: as, Number of Sales: 109, Revenue: 3263619.17
+33: Product: for, Number of Sales: 124, Revenue: 3261089.16
+34: Product: value, Number of Sales: 130, Revenue: 3258795.17
+35: Product: page, Number of Sales: 112, Revenue: 3258516.75
+36: Product: bar, Number of Sales: 119, Revenue: 3256885.07
+37: Product: above, Number of Sales: 128, Revenue: 3251738.98
+38: Product: now, Number of Sales: 116, Revenue: 3244312.19
+39: Product: week, Number of Sales: 115, Revenue: 3242663.81
+40: Product: major, Number of Sales: 118, Revenue: 3237306.53
+41: Product: forget, Number of Sales: 131, Revenue: 3217929.53
+42: Product: government, Number of Sales: 115, Revenue: 3217508.28
+43: Product: class, Number of Sales: 115, Revenue: 3213390.02
+44: Product: war, Number of Sales: 111, Revenue: 3209065.05
+45: Product: source, Number of Sales: 116, Revenue: 3207829.89
+46: Product: mind, Number of Sales: 122, Revenue: 3206352.71
+47: Product: base, Number of Sales: 118, Revenue: 3202703.26
+48: Product: list, Number of Sales: 108, Revenue: 3201951.26
+49: Product: set, Number of Sales: 121, Revenue: 3200986.50
+50: Product: late, Number of Sales: 117, Revenue: 3200941.04
+51: Product: expert, Number of Sales: 114, Revenue: 3191216.95
+52: Product: next, Number of Sales: 115, Revenue: 3185969.89
+53: Product: again, Number of Sales: 107, Revenue: 3168294.06
+54: Product: take, Number of Sales: 114, Revenue: 3165520.01
+55: Product: kind, Number of Sales: 115, Revenue: 3158751.40
+56: Product: easy, Number of Sales: 113, Revenue: 3155484.54
+57: Product: main, Number of Sales: 117, Revenue: 3150727.36
+58: Product: knowledge, Number of Sales: 128, Revenue: 3149775.38
+59: Product: step, Number of Sales: 113, Revenue: 3145752.24
+60: Product: attention, Number of Sales: 117, Revenue: 3140600.73
+61: Product: yeah, Number of Sales: 118, Revenue: 3132608.85
+62: Product: record, Number of Sales: 125, Revenue: 3130989.45
+63: Product: evening, Number of Sales: 122, Revenue: 3129011.10
+64: Product: role, Number of Sales: 123, Revenue: 3128233.82
+65: Product: gun, Number of Sales: 123, Revenue: 3124464.80
+66: Product: head, Number of Sales: 114, Revenue: 3123328.28
+67: Product: message, Number of Sales: 121, Revenue: 3122561.98
+68: Product: manager, Number of Sales: 115, Revenue: 3120944.64
+69: Product: management, Number of Sales: 110, Revenue: 3120369.69
+70: Product: risk, Number of Sales: 119, Revenue: 3115305.90
+71: Product: respond, Number of Sales: 127, Revenue: 3114548.10
+72: Product: analysis, Number of Sales: 125, Revenue: 3113176.50
+73: Product: case, Number of Sales: 126, Revenue: 3112569.37
+74: Product: any, Number of Sales: 117, Revenue: 3112219.50
+75: Product: and, Number of Sales: 121, Revenue: 3102665.23
+76: Product: keep, Number of Sales: 111, Revenue: 3102545.50
+77: Product: chair, Number of Sales: 130, Revenue: 3099430.33
+78: Product: big, Number of Sales: 110, Revenue: 3099248.18
+79: Product: season, Number of Sales: 106, Revenue: 3099004.12
+80: Product: you, Number of Sales: 109, Revenue: 3094233.87
+81: Product: action, Number of Sales: 124, Revenue: 3090107.59
+82: Product: good, Number of Sales: 106, Revenue: 3089061.42
+83: Product: free, Number of Sales: 101, Revenue: 3087242.21
+84: Product: possible, Number of Sales: 106, Revenue: 3085475.81
+85: Product: notice, Number of Sales: 106, Revenue: 3085260.56
+86: Product: according, Number of Sales: 104, Revenue: 3084859.33
+87: Product: instead, Number of Sales: 116, Revenue: 3084150.03
+88: Product: same, Number of Sales: 116, Revenue: 3083917.67
+89: Product: much, Number of Sales: 121, Revenue: 3081712.57
+90: Product: picture, Number of Sales: 113, Revenue: 3081129.51
+91: Product: policy, Number of Sales: 123, Revenue: 3080608.22
+92: Product: environment, Number of Sales: 97, Revenue: 3077923.21
+93: Product: account, Number of Sales: 110, Revenue: 3074172.63
+94: Product: not, Number of Sales: 117, Revenue: 3072527.84
+95: Product: claim, Number of Sales: 106, Revenue: 3070802.32
+96: Product: rate, Number of Sales: 122, Revenue: 3066783.08
+97: Product: hour, Number of Sales: 102, Revenue: 3063468.08
+98: Product: maybe, Number of Sales: 107, Revenue: 3059616.16
+99: Product: car, Number of Sales: 110, Revenue: 3056500.28
+100: Product: surface, Number of Sales: 106, Revenue: 3056023.12
+101: Product: foot, Number of Sales: 120, Revenue: 3050119.81
+102: Product: box, Number of Sales: 107, Revenue: 3049241.09
+103: Product: social, Number of Sales: 110, Revenue: 3045730.77
+104: Product: material, Number of Sales: 106, Revenue: 3043881.64
+105: Product: collection, Number of Sales: 112, Revenue: 3043875.55
+106: Product: sea, Number of Sales: 114, Revenue: 3043486.56
+107: Product: customer, Number of Sales: 118, Revenue: 3041531.45
+108: Product: federal, Number of Sales: 103, Revenue: 3037624.61
+109: Product: body, Number of Sales: 104, Revenue: 3035224.48
+110: Product: here, Number of Sales: 107, Revenue: 3034922.32
+111: Product: in, Number of Sales: 109, Revenue: 3033471.69
+112: Product: personal, Number of Sales: 116, Revenue: 3031608.50
+113: Product: summer, Number of Sales: 115, Revenue: 3031334.85
+114: Product: thousand, Number of Sales: 108, Revenue: 3030051.82
+115: Product: indeed, Number of Sales: 104, Revenue: 3028977.22
+116: Product: foreign, Number of Sales: 108, Revenue: 3027753.66
+117: Product: tonight, Number of Sales: 100, Revenue: 3025242.12
+118: Product: piece, Number of Sales: 117, Revenue: 3023338.41
+119: Product: truth, Number of Sales: 112, Revenue: 3022021.58
+120: Product: spring, Number of Sales: 106, Revenue: 3020989.30
+121: Product: cold, Number of Sales: 113, Revenue: 3019074.22
+122: Product: magazine, Number of Sales: 106, Revenue: 3018826.68
+123: Product: conference, Number of Sales: 116, Revenue: 3017993.82
+124: Product: effort, Number of Sales: 130, Revenue: 3017213.29
+125: Product: scientist, Number of Sales: 118, Revenue: 3017073.56
+126: Product: entire, Number of Sales: 105, Revenue: 3011926.45
+127: Product: road, Number of Sales: 116, Revenue: 3009184.82
+128: Product: event, Number of Sales: 107, Revenue: 3005769.81
+129: Product: ahead, Number of Sales: 110, Revenue: 3005626.08
+130: Product: ok, Number of Sales: 102, Revenue: 3002350.64
+131: Product: bag, Number of Sales: 123, Revenue: 2999513.56
+132: Product: herself, Number of Sales: 109, Revenue: 2999107.97
+133: Product: doctor, Number of Sales: 116, Revenue: 2998431.99
+134: Product: energy, Number of Sales: 114, Revenue: 2995084.77
+135: Product: wish, Number of Sales: 120, Revenue: 2991289.13
+136: Product: two, Number of Sales: 110, Revenue: 2990595.92
+137: Product: daughter, Number of Sales: 109, Revenue: 2988154.24
+138: Product: break, Number of Sales: 109, Revenue: 2987179.53
+139: Product: use, Number of Sales: 109, Revenue: 2982753.50
+140: Product: book, Number of Sales: 110, Revenue: 2982506.27
+141: Product: sit, Number of Sales: 110, Revenue: 2981101.24
+142: Product: study, Number of Sales: 114, Revenue: 2980911.42
+143: Product: technology, Number of Sales: 98, Revenue: 2980818.17
+144: Product: Congress, Number of Sales: 102, Revenue: 2980346.86
+145: Product: effect, Number of Sales: 99, Revenue: 2973416.64
+146: Product: family, Number of Sales: 108, Revenue: 2971896.60
+147: Product: concern, Number of Sales: 120, Revenue: 2967879.76
+148: Product: sport, Number of Sales: 119, Revenue: 2966186.26
+149: Product: natural, Number of Sales: 116, Revenue: 2963341.57
+150: Product: leader, Number of Sales: 109, Revenue: 2962224.63
+151: Product: future, Number of Sales: 118, Revenue: 2961607.16
+152: Product: development, Number of Sales: 106, Revenue: 2961142.69
+153: Product: seat, Number of Sales: 105, Revenue: 2960230.72
+154: Product: finish, Number of Sales: 107, Revenue: 2960092.35
+155: Product: have, Number of Sales: 113, Revenue: 2957582.88
+156: Product: help, Number of Sales: 110, Revenue: 2955136.53
+157: Product: rise, Number of Sales: 104, Revenue: 2954574.89
+158: Product: space, Number of Sales: 118, Revenue: 2954398.30
+159: Product: professional, Number of Sales: 106, Revenue: 2953525.68
+160: Product: order, Number of Sales: 113, Revenue: 2952064.61
+161: Product: single, Number of Sales: 116, Revenue: 2951309.15
+162: Product: into, Number of Sales: 107, Revenue: 2951104.30
+163: Product: include, Number of Sales: 118, Revenue: 2949490.99
+164: Product: national, Number of Sales: 107, Revenue: 2948967.16
+165: Product: less, Number of Sales: 112, Revenue: 2948698.79
+166: Product: program, Number of Sales: 111, Revenue: 2948049.15
+167: Product: bit, Number of Sales: 109, Revenue: 2947562.43
+168: Product: across, Number of Sales: 110, Revenue: 2946866.44
+169: Product: plan, Number of Sales: 113, Revenue: 2943841.45
+170: Product: morning, Number of Sales: 108, Revenue: 2942421.33
+171: Product: nice, Number of Sales: 115, Revenue: 2942204.20
+172: Product: inside, Number of Sales: 110, Revenue: 2940571.01
+173: Product: four, Number of Sales: 111, Revenue: 2939260.30
+174: Product: raise, Number of Sales: 113, Revenue: 2939220.42
+175: Product: put, Number of Sales: 111, Revenue: 2937836.30
+176: Product: door, Number of Sales: 111, Revenue: 2934725.99
+177: Product: reduce, Number of Sales: 108, Revenue: 2933162.41
+178: Product: both, Number of Sales: 119, Revenue: 2932906.00
+179: Product: offer, Number of Sales: 129, Revenue: 2932271.72
+180: Product: about, Number of Sales: 119, Revenue: 2932112.26
+181: Product: cultural, Number of Sales: 111, Revenue: 2931820.95
+182: Product: learn, Number of Sales: 111, Revenue: 2931371.46
+183: Product: agreement, Number of Sales: 122, Revenue: 2930786.44
+184: Product: old, Number of Sales: 112, Revenue: 2927356.37
+185: Product: school, Number of Sales: 124, Revenue: 2926561.17
+186: Product: six, Number of Sales: 109, Revenue: 2926405.18
+187: Product: black, Number of Sales: 111, Revenue: 2925667.33
+188: Product: blue, Number of Sales: 107, Revenue: 2925293.38
+189: Product: news, Number of Sales: 113, Revenue: 2925173.98
+190: Product: rather, Number of Sales: 106, Revenue: 2922460.59
+191: Product: also, Number of Sales: 114, Revenue: 2922352.67
+192: Product: wonder, Number of Sales: 106, Revenue: 2920577.63
+193: Product: seven, Number of Sales: 105, Revenue: 2919807.78
+194: Product: none, Number of Sales: 99, Revenue: 2917946.36
+195: Product: agree, Number of Sales: 110, Revenue: 2917527.01
+196: Product: institution, Number of Sales: 115, Revenue: 2917215.94
+197: Product: home, Number of Sales: 117, Revenue: 2915973.11
+198: Product: own, Number of Sales: 100, Revenue: 2914134.79
+199: Product: feel, Number of Sales: 107, Revenue: 2911303.87
+200: Product: everything, Number of Sales: 114, Revenue: 2911110.01
+201: Product: eat, Number of Sales: 110, Revenue: 2910706.85
+202: Product: impact, Number of Sales: 105, Revenue: 2910173.42
+203: Product: computer, Number of Sales: 125, Revenue: 2908760.07
+204: Product: senior, Number of Sales: 119, Revenue: 2907075.00
+205: Product: statement, Number of Sales: 105, Revenue: 2904887.28
+206: Product: act, Number of Sales: 110, Revenue: 2904853.28
+207: Product: PM, Number of Sales: 104, Revenue: 2904008.19
+208: Product: discover, Number of Sales: 106, Revenue: 2903868.91
+209: Product: experience, Number of Sales: 116, Revenue: 2902232.42
+210: Product: night, Number of Sales: 108, Revenue: 2901906.18
+211: Product: team, Number of Sales: 115, Revenue: 2900242.90
+212: Product: career, Number of Sales: 120, Revenue: 2898876.47
+213: Product: visit, Number of Sales: 123, Revenue: 2897492.66
+214: Product: at, Number of Sales: 108, Revenue: 2896826.29
+215: Product: defense, Number of Sales: 111, Revenue: 2896445.08
+216: Product: audience, Number of Sales: 115, Revenue: 2894663.03
+217: Product: watch, Number of Sales: 105, Revenue: 2894626.09
+218: Product: pull, Number of Sales: 100, Revenue: 2893427.44
+219: Product: behavior, Number of Sales: 111, Revenue: 2891095.70
+220: Product: college, Number of Sales: 118, Revenue: 2889342.90
+221: Product: garden, Number of Sales: 109, Revenue: 2888838.92
+222: Product: minute, Number of Sales: 94, Revenue: 2887448.33
+223: Product: eight, Number of Sales: 120, Revenue: 2885807.94
+224: Product: crime, Number of Sales: 108, Revenue: 2885430.20
+225: Product: one, Number of Sales: 111, Revenue: 2885251.02
+226: Product: choose, Number of Sales: 98, Revenue: 2883752.03
+227: Product: ready, Number of Sales: 109, Revenue: 2883011.92
+228: Product: from, Number of Sales: 115, Revenue: 2879064.89
+229: Product: relationship, Number of Sales: 117, Revenue: 2876380.58
+230: Product: community, Number of Sales: 112, Revenue: 2875830.28
+231: Product: produce, Number of Sales: 120, Revenue: 2875716.55
+232: Product: can, Number of Sales: 104, Revenue: 2872095.01
+233: Product: ground, Number of Sales: 112, Revenue: 2871414.82
+234: Product: arrive, Number of Sales: 115, Revenue: 2870208.06
+235: Product: director, Number of Sales: 121, Revenue: 2869612.30
+236: Product: together, Number of Sales: 109, Revenue: 2868235.69
+237: Product: skill, Number of Sales: 102, Revenue: 2867875.41
+238: Product: fast, Number of Sales: 106, Revenue: 2867850.24
+239: Product: position, Number of Sales: 116, Revenue: 2867029.55
+240: Product: beat, Number of Sales: 118, Revenue: 2866433.96
+241: Product: house, Number of Sales: 114, Revenue: 2862297.17
+242: Product: professor, Number of Sales: 102, Revenue: 2860631.86
+243: Product: decade, Number of Sales: 110, Revenue: 2860449.09
+244: Product: task, Number of Sales: 115, Revenue: 2859957.26
+245: Product: fact, Number of Sales: 114, Revenue: 2859881.06
+246: Product: my, Number of Sales: 99, Revenue: 2859007.44
+247: Product: responsibility, Number of Sales: 108, Revenue: 2858549.72
+248: Product: start, Number of Sales: 103, Revenue: 2854291.02
+249: Product: stand, Number of Sales: 112, Revenue: 2852927.08
+250: Product: somebody, Number of Sales: 109, Revenue: 2850213.83
+251: Product: himself, Number of Sales: 116, Revenue: 2848556.32
+252: Product: ability, Number of Sales: 103, Revenue: 2846840.81
+253: Product: language, Number of Sales: 115, Revenue: 2845525.54
+254: Product: air, Number of Sales: 108, Revenue: 2845058.70
+255: Product: them, Number of Sales: 100, Revenue: 2844840.55
+256: Product: turn, Number of Sales: 99, Revenue: 2844237.22
+257: Product: else, Number of Sales: 109, Revenue: 2843820.05
+258: Product: his, Number of Sales: 111, Revenue: 2843507.86
+259: Product: call, Number of Sales: 98, Revenue: 2840071.90
+260: Product: issue, Number of Sales: 113, Revenue: 2839478.18
+261: Product: consider, Number of Sales: 107, Revenue: 2838105.76
+262: Product: modern, Number of Sales: 110, Revenue: 2835156.19
+263: Product: structure, Number of Sales: 105, Revenue: 2834514.57
+264: Product: explain, Number of Sales: 108, Revenue: 2833513.00
+265: Product: simple, Number of Sales: 108, Revenue: 2833419.12
+266: Product: religious, Number of Sales: 109, Revenue: 2831146.97
+267: Product: example, Number of Sales: 104, Revenue: 2830297.33
+268: Product: focus, Number of Sales: 111, Revenue: 2829930.50
+269: Product: sometimes, Number of Sales: 107, Revenue: 2829726.43
+270: Product: ball, Number of Sales: 90, Revenue: 2829381.44
+271: Product: against, Number of Sales: 113, Revenue: 2826986.19
+272: Product: eye, Number of Sales: 108, Revenue: 2826091.63
+273: Product: plant, Number of Sales: 112, Revenue: 2825493.14
+274: Product: affect, Number of Sales: 115, Revenue: 2821662.47
+275: Product: stage, Number of Sales: 115, Revenue: 2821371.02
+276: Product: science, Number of Sales: 120, Revenue: 2819655.05
+277: Product: poor, Number of Sales: 101, Revenue: 2819560.50
+278: Product: improve, Number of Sales: 100, Revenue: 2818705.56
+279: Product: far, Number of Sales: 105, Revenue: 2818071.98
+280: Product: hit, Number of Sales: 114, Revenue: 2817496.15
+281: Product: despite, Number of Sales: 100, Revenue: 2815869.01
+282: Product: hundred, Number of Sales: 109, Revenue: 2812669.06
+283: Product: financial, Number of Sales: 110, Revenue: 2811702.24
+284: Product: skin, Number of Sales: 100, Revenue: 2805063.72
+285: Product: go, Number of Sales: 102, Revenue: 2804576.81
+286: Product: cause, Number of Sales: 100, Revenue: 2803753.94
+287: Product: exist, Number of Sales: 108, Revenue: 2803671.80
+288: Product: window, Number of Sales: 110, Revenue: 2803331.64
+289: Product: yard, Number of Sales: 106, Revenue: 2802429.30
+290: Product: over, Number of Sales: 104, Revenue: 2801200.24
+291: Product: mention, Number of Sales: 105, Revenue: 2800825.14
+292: Product: amount, Number of Sales: 123, Revenue: 2798764.74
+293: Product: without, Number of Sales: 110, Revenue: 2797982.04
+294: Product: method, Number of Sales: 110, Revenue: 2796862.32
+295: Product: million, Number of Sales: 105, Revenue: 2796735.39
+296: Product: establish, Number of Sales: 123, Revenue: 2796376.09
+297: Product: address, Number of Sales: 100, Revenue: 2795378.56
+298: Product: identify, Number of Sales: 108, Revenue: 2794958.12
+299: Product: animal, Number of Sales: 106, Revenue: 2794017.37
+300: Product: reason, Number of Sales: 97, Revenue: 2793000.66
+301: Product: think, Number of Sales: 115, Revenue: 2791879.19
+302: Product: room, Number of Sales: 103, Revenue: 2791029.14
+303: Product: could, Number of Sales: 107, Revenue: 2787884.96
+304: Product: tough, Number of Sales: 119, Revenue: 2786290.91
+305: Product: feeling, Number of Sales: 108, Revenue: 2785916.82
+306: Product: kid, Number of Sales: 97, Revenue: 2785887.24
+307: Product: consumer, Number of Sales: 125, Revenue: 2785600.95
+308: Product: test, Number of Sales: 107, Revenue: 2785075.41
+309: Product: hope, Number of Sales: 115, Revenue: 2784407.88
+310: Product: nearly, Number of Sales: 106, Revenue: 2783513.00
+311: Product: kitchen, Number of Sales: 104, Revenue: 2781665.99
+312: Product: beautiful, Number of Sales: 99, Revenue: 2781030.62
+313: Product: sort, Number of Sales: 104, Revenue: 2780058.55
+314: Product: month, Number of Sales: 124, Revenue: 2780031.87
+315: Product: five, Number of Sales: 107, Revenue: 2779434.47
+316: Product: officer, Number of Sales: 104, Revenue: 2778890.47
+317: Product: form, Number of Sales: 93, Revenue: 2777894.61
+318: Product: become, Number of Sales: 98, Revenue: 2777302.46
+319: Product: within, Number of Sales: 98, Revenue: 2777118.27
+320: Product: individual, Number of Sales: 92, Revenue: 2776018.15
+321: Product: suggest, Number of Sales: 106, Revenue: 2773150.82
+322: Product: whatever, Number of Sales: 96, Revenue: 2773075.20
+323: Product: law, Number of Sales: 115, Revenue: 2772396.83
+324: Product: food, Number of Sales: 104, Revenue: 2771555.16
+325: Product: economy, Number of Sales: 109, Revenue: 2770980.12
+326: Product: trip, Number of Sales: 114, Revenue: 2770656.92
+327: Product: know, Number of Sales: 100, Revenue: 2770001.03
+328: Product: fall, Number of Sales: 108, Revenue: 2768955.96
+329: Product: movement, Number of Sales: 113, Revenue: 2765454.19
+330: Product: sing, Number of Sales: 109, Revenue: 2763521.56
+331: Product: boy, Number of Sales: 120, Revenue: 2762608.75
+332: Product: scene, Number of Sales: 105, Revenue: 2762359.81
+333: Product: another, Number of Sales: 110, Revenue: 2761124.38
+334: Product: hospital, Number of Sales: 109, Revenue: 2760864.42
+335: Product: response, Number of Sales: 110, Revenue: 2760455.81
+336: Product: look, Number of Sales: 105, Revenue: 2760318.55
+337: Product: company, Number of Sales: 101, Revenue: 2758904.99
+338: Product: why, Number of Sales: 110, Revenue: 2758031.93
+339: Product: which, Number of Sales: 101, Revenue: 2757637.31
+340: Product: increase, Number of Sales: 108, Revenue: 2756888.66
+341: Product: power, Number of Sales: 107, Revenue: 2756886.83
+342: Product: business, Number of Sales: 107, Revenue: 2755408.67
+343: Product: off, Number of Sales: 100, Revenue: 2750930.12
+344: Product: add, Number of Sales: 104, Revenue: 2747533.24
+345: Product: industry, Number of Sales: 111, Revenue: 2747232.05
+346: Product: few, Number of Sales: 97, Revenue: 2746823.58
+347: Product: property, Number of Sales: 113, Revenue: 2746490.04
+348: Product: allow, Number of Sales: 100, Revenue: 2746421.15
+349: Product: represent, Number of Sales: 97, Revenue: 2746043.02
+350: Product: choice, Number of Sales: 100, Revenue: 2744802.28
+351: Product: until, Number of Sales: 122, Revenue: 2744427.93
+352: Product: we, Number of Sales: 110, Revenue: 2740679.37
+353: Product: child, Number of Sales: 97, Revenue: 2740439.08
+354: Product: trade, Number of Sales: 95, Revenue: 2740026.97
+355: Product: part, Number of Sales: 107, Revenue: 2736851.90
+356: Product: culture, Number of Sales: 113, Revenue: 2736672.80
+357: Product: close, Number of Sales: 111, Revenue: 2734771.91
+358: Product: meet, Number of Sales: 114, Revenue: 2732518.37
+359: Product: baby, Number of Sales: 104, Revenue: 2730726.13
+360: Product: me, Number of Sales: 110, Revenue: 2728697.41
+361: Product: admit, Number of Sales: 104, Revenue: 2728285.19
+362: Product: success, Number of Sales: 109, Revenue: 2728165.16
+363: Product: training, Number of Sales: 100, Revenue: 2727157.35
+364: Product: win, Number of Sales: 99, Revenue: 2724946.36
+365: Product: cost, Number of Sales: 88, Revenue: 2724249.39
+366: Product: west, Number of Sales: 104, Revenue: 2721155.06
+367: Product: remember, Number of Sales: 112, Revenue: 2716811.04
+368: Product: sure, Number of Sales: 100, Revenue: 2716809.24
+369: Product: a, Number of Sales: 95, Revenue: 2716641.49
+370: Product: budget, Number of Sales: 94, Revenue: 2716339.65
+371: Product: many, Number of Sales: 109, Revenue: 2715882.15
+372: Product: prevent, Number of Sales: 110, Revenue: 2715005.60
+373: Product: mouth, Number of Sales: 102, Revenue: 2714639.22
+374: Product: song, Number of Sales: 119, Revenue: 2711776.12
+375: Product: voice, Number of Sales: 99, Revenue: 2711663.20
+376: Product: term, Number of Sales: 102, Revenue: 2710848.97
+377: Product: listen, Number of Sales: 105, Revenue: 2705643.24
+378: Product: nature, Number of Sales: 106, Revenue: 2705028.13
+379: Product: owner, Number of Sales: 113, Revenue: 2704840.27
+380: Product: through, Number of Sales: 107, Revenue: 2701944.98
+381: Product: region, Number of Sales: 92, Revenue: 2701684.89
+382: Product: side, Number of Sales: 103, Revenue: 2701031.61
+383: Product: even, Number of Sales: 108, Revenue: 2700686.94
+384: Product: argue, Number of Sales: 108, Revenue: 2699834.83
+385: Product: great, Number of Sales: 112, Revenue: 2698962.44
+386: Product: bring, Number of Sales: 96, Revenue: 2697412.56
+387: Product: movie, Number of Sales: 96, Revenue: 2696025.74
+388: Product: these, Number of Sales: 97, Revenue: 2695987.26
+389: Product: dinner, Number of Sales: 107, Revenue: 2695119.29
+390: Product: number, Number of Sales: 103, Revenue: 2694911.11
+391: Product: American, Number of Sales: 100, Revenue: 2694874.40
+392: Product: police, Number of Sales: 114, Revenue: 2690290.57
+393: Product: society, Number of Sales: 105, Revenue: 2690105.35
+394: Product: job, Number of Sales: 104, Revenue: 2689133.20
+395: Product: evidence, Number of Sales: 93, Revenue: 2688293.38
+396: Product: coach, Number of Sales: 100, Revenue: 2687931.69
+397: Product: write, Number of Sales: 103, Revenue: 2687261.74
+398: Product: must, Number of Sales: 119, Revenue: 2686488.46
+399: Product: center, Number of Sales: 115, Revenue: 2684696.01
+400: Product: fly, Number of Sales: 90, Revenue: 2683064.43
+401: Product: fund, Number of Sales: 105, Revenue: 2682731.67
+402: Product: decision, Number of Sales: 98, Revenue: 2682576.39
+403: Product: soldier, Number of Sales: 94, Revenue: 2682566.51
+404: Product: situation, Number of Sales: 111, Revenue: 2681550.27
+405: Product: sell, Number of Sales: 101, Revenue: 2679669.14
+406: Product: idea, Number of Sales: 105, Revenue: 2679633.10
+407: Product: present, Number of Sales: 99, Revenue: 2679189.01
+408: Product: media, Number of Sales: 102, Revenue: 2678636.32
+409: Product: authority, Number of Sales: 101, Revenue: 2677721.67
+410: Product: someone, Number of Sales: 106, Revenue: 2677641.91
+411: Product: meeting, Number of Sales: 100, Revenue: 2677068.53
+412: Product: outside, Number of Sales: 105, Revenue: 2676128.53
+413: Product: check, Number of Sales: 93, Revenue: 2675854.36
+414: Product: time, Number of Sales: 100, Revenue: 2673746.08
+415: Product: way, Number of Sales: 96, Revenue: 2673528.98
+416: Product: receive, Number of Sales: 114, Revenue: 2673187.61
+417: Product: soon, Number of Sales: 109, Revenue: 2673112.11
+418: Product: upon, Number of Sales: 98, Revenue: 2673076.07
+419: Product: require, Number of Sales: 103, Revenue: 2670273.25
+420: Product: day, Number of Sales: 106, Revenue: 2669500.75
+421: Product: hear, Number of Sales: 105, Revenue: 2669008.89
+422: Product: do, Number of Sales: 99, Revenue: 2668363.50
+423: Product: type, Number of Sales: 98, Revenue: 2665241.67
+424: Product: front, Number of Sales: 110, Revenue: 2662526.09
+425: Product: carry, Number of Sales: 103, Revenue: 2661441.52
+426: Product: thus, Number of Sales: 111, Revenue: 2660945.32
+427: Product: different, Number of Sales: 99, Revenue: 2660152.83
+428: Product: answer, Number of Sales: 103, Revenue: 2658941.87
+429: Product: ever, Number of Sales: 96, Revenue: 2655056.95
+430: Product: arm, Number of Sales: 99, Revenue: 2654048.14
+431: Product: apply, Number of Sales: 111, Revenue: 2653793.85
+432: Product: reach, Number of Sales: 99, Revenue: 2652740.21
+433: Product: usually, Number of Sales: 112, Revenue: 2652060.75
+434: Product: smile, Number of Sales: 106, Revenue: 2651508.51
+435: Product: assume, Number of Sales: 95, Revenue: 2650723.98
+436: Product: civil, Number of Sales: 92, Revenue: 2650690.20
+437: Product: specific, Number of Sales: 99, Revenue: 2649731.52
+438: Product: exactly, Number of Sales: 104, Revenue: 2648772.10
+439: Product: left, Number of Sales: 105, Revenue: 2648547.76
+440: Product: security, Number of Sales: 105, Revenue: 2644557.23
+441: Product: but, Number of Sales: 102, Revenue: 2643768.68
+442: Product: today, Number of Sales: 110, Revenue: 2643499.69
+443: Product: peace, Number of Sales: 93, Revenue: 2643420.65
+444: Product: say, Number of Sales: 110, Revenue: 2642590.10
+445: Product: lay, Number of Sales: 97, Revenue: 2641444.09
+446: Product: majority, Number of Sales: 98, Revenue: 2641111.68
+447: Product: president, Number of Sales: 110, Revenue: 2639677.07
+448: Product: there, Number of Sales: 106, Revenue: 2638396.53
+449: Product: tell, Number of Sales: 102, Revenue: 2638149.64
+450: Product: this, Number of Sales: 106, Revenue: 2637763.76
+451: Product: tend, Number of Sales: 103, Revenue: 2637015.37
+452: Product: common, Number of Sales: 107, Revenue: 2636903.00
+453: Product: Republican, Number of Sales: 108, Revenue: 2636197.19
+454: Product: deep, Number of Sales: 95, Revenue: 2633864.86
+455: Product: accept, Number of Sales: 99, Revenue: 2632388.83
+456: Product: since, Number of Sales: 106, Revenue: 2631355.43
+457: Product: sense, Number of Sales: 110, Revenue: 2630965.56
+458: Product: glass, Number of Sales: 109, Revenue: 2630193.09
+459: Product: politics, Number of Sales: 105, Revenue: 2629638.58
+460: Product: bank, Number of Sales: 102, Revenue: 2629493.80
+461: Product: low, Number of Sales: 103, Revenue: 2629419.90
+462: Product: myself, Number of Sales: 114, Revenue: 2628647.89
+463: Product: newspaper, Number of Sales: 106, Revenue: 2628438.67
+464: Product: church, Number of Sales: 99, Revenue: 2628040.66
+465: Product: bill, Number of Sales: 95, Revenue: 2627565.94
+466: Product: find, Number of Sales: 114, Revenue: 2626883.13
+467: Product: marriage, Number of Sales: 98, Revenue: 2626291.33
+468: Product: final, Number of Sales: 106, Revenue: 2625084.15
+469: Product: red, Number of Sales: 98, Revenue: 2624635.52
+470: Product: mission, Number of Sales: 105, Revenue: 2624468.78
+471: Product: cell, Number of Sales: 116, Revenue: 2624312.06
+472: Product: shake, Number of Sales: 93, Revenue: 2623524.60
+473: Product: drug, Number of Sales: 85, Revenue: 2621815.94
+474: Product: clearly, Number of Sales: 102, Revenue: 2621199.00
+475: Product: charge, Number of Sales: 105, Revenue: 2621158.39
+476: Product: whom, Number of Sales: 95, Revenue: 2620889.87
+477: Product: such, Number of Sales: 95, Revenue: 2620666.43
+478: Product: unit, Number of Sales: 92, Revenue: 2620369.16
+479: Product: nor, Number of Sales: 110, Revenue: 2618601.46
+480: Product: when, Number of Sales: 95, Revenue: 2618052.69
+481: Product: suddenly, Number of Sales: 102, Revenue: 2615186.29
+482: Product: often, Number of Sales: 104, Revenue: 2614865.47
+483: Product: sound, Number of Sales: 109, Revenue: 2614476.69
+484: Product: information, Number of Sales: 110, Revenue: 2612980.48
+485: Product: gas, Number of Sales: 111, Revenue: 2610931.73
+486: Product: brother, Number of Sales: 103, Revenue: 2610732.81
+487: Product: want, Number of Sales: 111, Revenue: 2609656.36
+488: Product: range, Number of Sales: 101, Revenue: 2608609.91
+489: Product: like, Number of Sales: 103, Revenue: 2607400.08
+490: Product: model, Number of Sales: 107, Revenue: 2607208.57
+491: Product: contain, Number of Sales: 105, Revenue: 2606751.17
+492: Product: may, Number of Sales: 102, Revenue: 2603327.98
+493: Product: end, Number of Sales: 108, Revenue: 2603297.13
+494: Product: economic, Number of Sales: 112, Revenue: 2602783.97
+495: Product: process, Number of Sales: 104, Revenue: 2598903.10
+496: Product: section, Number of Sales: 103, Revenue: 2597470.07
+497: Product: themselves, Number of Sales: 109, Revenue: 2597137.86
+498: Product: anything, Number of Sales: 94, Revenue: 2596407.68
+499: Product: difficult, Number of Sales: 112, Revenue: 2595948.01
+500: Product: growth, Number of Sales: 102, Revenue: 2594079.89
+501: Product: ask, Number of Sales: 118, Revenue: 2593636.60
+502: Product: recent, Number of Sales: 103, Revenue: 2592936.15
+503: Product: card, Number of Sales: 93, Revenue: 2592612.70
+504: Product: change, Number of Sales: 99, Revenue: 2592606.96
+505: Product: particular, Number of Sales: 94, Revenue: 2591883.39
+506: Product: positive, Number of Sales: 121, Revenue: 2591701.99
+507: Product: girl, Number of Sales: 102, Revenue: 2591349.53
+508: Product: hard, Number of Sales: 98, Revenue: 2591139.68
+509: Product: actually, Number of Sales: 108, Revenue: 2590947.53
+510: Product: recently, Number of Sales: 98, Revenue: 2589507.31
+511: Product: hold, Number of Sales: 102, Revenue: 2589401.99
+512: Product: key, Number of Sales: 96, Revenue: 2587401.64
+513: Product: medical, Number of Sales: 117, Revenue: 2586797.60
+514: Product: describe, Number of Sales: 105, Revenue: 2585480.13
+515: Product: well, Number of Sales: 113, Revenue: 2584275.81
+516: Product: sign, Number of Sales: 99, Revenue: 2584065.35
+517: Product: recognize, Number of Sales: 97, Revenue: 2583820.25
+518: Product: once, Number of Sales: 110, Revenue: 2583621.48
+519: Product: reality, Number of Sales: 109, Revenue: 2582982.67
+520: Product: production, Number of Sales: 118, Revenue: 2581568.59
+521: Product: avoid, Number of Sales: 100, Revenue: 2580635.67
+522: Product: wrong, Number of Sales: 104, Revenue: 2579747.34
+523: Product: heavy, Number of Sales: 110, Revenue: 2579390.48
+524: Product: imagine, Number of Sales: 101, Revenue: 2579118.56
+525: Product: nation, Number of Sales: 106, Revenue: 2578264.10
+526: Product: memory, Number of Sales: 98, Revenue: 2577307.51
+527: Product: compare, Number of Sales: 102, Revenue: 2576474.70
+528: Product: quite, Number of Sales: 100, Revenue: 2570292.08
+529: Product: try, Number of Sales: 97, Revenue: 2570191.04
+530: Product: later, Number of Sales: 98, Revenue: 2569232.80
+531: Product: prove, Number of Sales: 104, Revenue: 2568580.72
+532: Product: office, Number of Sales: 98, Revenue: 2566218.15
+533: Product: onto, Number of Sales: 112, Revenue: 2565577.69
+534: Product: long, Number of Sales: 95, Revenue: 2563172.32
+535: Product: while, Number of Sales: 110, Revenue: 2562891.36
+536: Product: important, Number of Sales: 102, Revenue: 2562718.84
+537: Product: care, Number of Sales: 95, Revenue: 2562254.90
+538: Product: rich, Number of Sales: 92, Revenue: 2561542.41
+539: Product: up, Number of Sales: 105, Revenue: 2561093.98
+540: Product: firm, Number of Sales: 104, Revenue: 2558582.40
+541: Product: indicate, Number of Sales: 94, Revenue: 2557926.56
+542: Product: give, Number of Sales: 91, Revenue: 2557780.78
+543: Product: cover, Number of Sales: 119, Revenue: 2556601.53
+544: Product: author, Number of Sales: 101, Revenue: 2556482.95
+545: Product: face, Number of Sales: 112, Revenue: 2556428.78
+546: Product: dream, Number of Sales: 102, Revenue: 2555757.42
+547: Product: drive, Number of Sales: 112, Revenue: 2555552.67
+548: Product: attack, Number of Sales: 95, Revenue: 2554563.68
+549: Product: return, Number of Sales: 91, Revenue: 2554379.46
+550: Product: style, Number of Sales: 110, Revenue: 2553558.60
+551: Product: hot, Number of Sales: 101, Revenue: 2552976.75
+552: Product: save, Number of Sales: 100, Revenue: 2552918.02
+553: Product: partner, Number of Sales: 106, Revenue: 2552174.04
+554: Product: group, Number of Sales: 95, Revenue: 2546746.88
+555: Product: camera, Number of Sales: 103, Revenue: 2545756.82
+556: Product: age, Number of Sales: 101, Revenue: 2545454.64
+557: Product: line, Number of Sales: 84, Revenue: 2542849.08
+558: Product: environmental, Number of Sales: 104, Revenue: 2542749.02
+559: Product: alone, Number of Sales: 116, Revenue: 2542199.50
+560: Product: question, Number of Sales: 94, Revenue: 2542180.52
+561: Product: operation, Number of Sales: 92, Revenue: 2542145.97
+562: Product: detail, Number of Sales: 104, Revenue: 2541949.30
+563: Product: radio, Number of Sales: 106, Revenue: 2541853.51
+564: Product: wear, Number of Sales: 98, Revenue: 2540104.32
+565: Product: continue, Number of Sales: 98, Revenue: 2539674.04
+566: Product: adult, Number of Sales: 101, Revenue: 2536858.70
+567: Product: fear, Number of Sales: 92, Revenue: 2535849.68
+568: Product: data, Number of Sales: 103, Revenue: 2535632.17
+569: Product: central, Number of Sales: 91, Revenue: 2535474.17
+570: Product: lose, Number of Sales: 96, Revenue: 2534827.71
+571: Product: human, Number of Sales: 91, Revenue: 2534508.45
+572: Product: lead, Number of Sales: 101, Revenue: 2534357.80
+573: Product: store, Number of Sales: 97, Revenue: 2534257.01
+574: Product: enjoy, Number of Sales: 106, Revenue: 2533548.41
+575: Product: its, Number of Sales: 100, Revenue: 2529813.01
+576: Product: after, Number of Sales: 106, Revenue: 2529694.33
+577: Product: art, Number of Sales: 91, Revenue: 2529663.00
+578: Product: full, Number of Sales: 97, Revenue: 2529574.77
+579: Product: especially, Number of Sales: 98, Revenue: 2529149.68
+580: Product: century, Number of Sales: 93, Revenue: 2528522.85
+581: Product: street, Number of Sales: 92, Revenue: 2526257.10
+582: Product: happen, Number of Sales: 101, Revenue: 2523823.81
+583: Product: rest, Number of Sales: 103, Revenue: 2523526.26
+584: Product: some, Number of Sales: 84, Revenue: 2521966.71
+585: Product: guess, Number of Sales: 102, Revenue: 2520366.39
+586: Product: Mrs, Number of Sales: 95, Revenue: 2520216.89
+587: Product: public, Number of Sales: 98, Revenue: 2519786.01
+588: Product: probably, Number of Sales: 97, Revenue: 2519664.25
+589: Product: nothing, Number of Sales: 94, Revenue: 2519317.89
+590: Product: option, Number of Sales: 90, Revenue: 2518609.82
+591: Product: maintain, Number of Sales: 101, Revenue: 2515642.21
+592: Product: catch, Number of Sales: 105, Revenue: 2515485.73
+593: Product: to, Number of Sales: 98, Revenue: 2513030.50
+594: Product: follow, Number of Sales: 99, Revenue: 2511584.95
+595: Product: weight, Number of Sales: 100, Revenue: 2511224.26
+596: Product: member, Number of Sales: 99, Revenue: 2510590.81
+597: Product: build, Number of Sales: 91, Revenue: 2510146.54
+598: Product: health, Number of Sales: 93, Revenue: 2509206.48
+599: Product: let, Number of Sales: 109, Revenue: 2507533.29
+600: Product: behind, Number of Sales: 104, Revenue: 2507407.02
+601: Product: half, Number of Sales: 104, Revenue: 2507328.61
+602: Product: almost, Number of Sales: 108, Revenue: 2506257.96
+603: Product: beyond, Number of Sales: 101, Revenue: 2504520.87
+604: Product: dog, Number of Sales: 94, Revenue: 2503207.95
+605: Product: place, Number of Sales: 106, Revenue: 2503108.34
+606: Product: every, Number of Sales: 103, Revenue: 2501286.68
+607: Product: goal, Number of Sales: 99, Revenue: 2500504.12
+608: Product: vote, Number of Sales: 100, Revenue: 2499890.87
+609: Product: along, Number of Sales: 100, Revenue: 2496453.94
+610: Product: serve, Number of Sales: 99, Revenue: 2495890.94
+611: Product: certain, Number of Sales: 96, Revenue: 2494761.27
+612: Product: others, Number of Sales: 105, Revenue: 2494672.50
+613: Product: country, Number of Sales: 98, Revenue: 2492415.77
+614: Product: always, Number of Sales: 93, Revenue: 2491954.07
+615: Product: how, Number of Sales: 104, Revenue: 2491643.47
+616: Product: including, Number of Sales: 109, Revenue: 2490931.80
+617: Product: election, Number of Sales: 91, Revenue: 2490290.17
+618: Product: money, Number of Sales: 101, Revenue: 2489971.67
+619: Product: threat, Number of Sales: 107, Revenue: 2486892.60
+620: Product: shoulder, Number of Sales: 99, Revenue: 2486623.80
+621: Product: everyone, Number of Sales: 110, Revenue: 2486278.32
+622: Product: because, Number of Sales: 92, Revenue: 2485983.16
+623: Product: cup, Number of Sales: 108, Revenue: 2485524.96
+624: Product: matter, Number of Sales: 102, Revenue: 2485171.15
+625: Product: ago, Number of Sales: 109, Revenue: 2484920.13
+626: Product: station, Number of Sales: 96, Revenue: 2484808.36
+627: Product: wide, Number of Sales: 88, Revenue: 2483892.28
+628: Product: network, Number of Sales: 98, Revenue: 2482957.56
+629: Product: something, Number of Sales: 99, Revenue: 2481969.25
+630: Product: phone, Number of Sales: 109, Revenue: 2481968.24
+631: Product: little, Number of Sales: 90, Revenue: 2481678.09
+632: Product: decide, Number of Sales: 84, Revenue: 2481138.46
+633: Product: anyone, Number of Sales: 98, Revenue: 2479708.36
+634: Product: itself, Number of Sales: 99, Revenue: 2479625.27
+635: Product: price, Number of Sales: 105, Revenue: 2478221.13
+636: Product: year, Number of Sales: 100, Revenue: 2476819.68
+637: Product: commercial, Number of Sales: 104, Revenue: 2476191.06
+638: Product: out, Number of Sales: 99, Revenue: 2475784.39
+639: Product: right, Number of Sales: 92, Revenue: 2475052.14
+640: Product: court, Number of Sales: 105, Revenue: 2474513.43
+641: Product: table, Number of Sales: 91, Revenue: 2473665.49
+642: Product: talk, Number of Sales: 99, Revenue: 2473624.65
+643: Product: available, Number of Sales: 101, Revenue: 2469440.87
+644: Product: fire, Number of Sales: 98, Revenue: 2468986.56
+645: Product: she, Number of Sales: 89, Revenue: 2468873.59
+646: Product: tree, Number of Sales: 105, Revenue: 2468814.96
+647: Product: enter, Number of Sales: 98, Revenue: 2468461.37
+648: Product: level, Number of Sales: 96, Revenue: 2467914.53
+649: Product: miss, Number of Sales: 102, Revenue: 2466866.03
+650: Product: though, Number of Sales: 110, Revenue: 2466835.31
+651: Product: light, Number of Sales: 91, Revenue: 2465840.49
+652: Product: buy, Number of Sales: 100, Revenue: 2464889.93
+653: Product: wait, Number of Sales: 96, Revenue: 2464786.33
+654: Product: worker, Number of Sales: 103, Revenue: 2463382.81
+655: Product: on, Number of Sales: 103, Revenue: 2462513.86
+656: Product: attorney, Number of Sales: 100, Revenue: 2461713.48
+657: Product: score, Number of Sales: 103, Revenue: 2458490.11
+658: Product: life, Number of Sales: 95, Revenue: 2456129.33
+659: Product: second, Number of Sales: 102, Revenue: 2455697.54
+660: Product: last, Number of Sales: 99, Revenue: 2455449.31
+661: Product: each, Number of Sales: 92, Revenue: 2452747.45
+662: Product: east, Number of Sales: 101, Revenue: 2449947.24
+663: Product: see, Number of Sales: 107, Revenue: 2449921.12
+664: Product: reveal, Number of Sales: 118, Revenue: 2448730.67
+665: Product: reflect, Number of Sales: 104, Revenue: 2446163.19
+666: Product: party, Number of Sales: 104, Revenue: 2445660.31
+667: Product: create, Number of Sales: 109, Revenue: 2444598.38
+668: Product: down, Number of Sales: 104, Revenue: 2444330.27
+669: Product: executive, Number of Sales: 102, Revenue: 2441769.98
+670: Product: particularly, Number of Sales: 109, Revenue: 2441574.25
+671: Product: debate, Number of Sales: 98, Revenue: 2438998.26
+672: Product: wife, Number of Sales: 97, Revenue: 2438575.73
+673: Product: might, Number of Sales: 103, Revenue: 2438528.24
+674: Product: strong, Number of Sales: 106, Revenue: 2438472.76
+675: Product: current, Number of Sales: 92, Revenue: 2438419.12
+676: Product: heart, Number of Sales: 90, Revenue: 2438097.70
+677: Product: letter, Number of Sales: 106, Revenue: 2437633.82
+678: Product: simply, Number of Sales: 109, Revenue: 2435987.13
+679: Product: pick, Number of Sales: 103, Revenue: 2435807.62
+680: Product: teach, Number of Sales: 105, Revenue: 2434726.14
+681: Product: market, Number of Sales: 97, Revenue: 2434250.48
+682: Product: fight, Number of Sales: 100, Revenue: 2433645.69
+683: Product: then, Number of Sales: 105, Revenue: 2433441.57
+684: Product: join, Number of Sales: 101, Revenue: 2433099.10
+685: Product: north, Number of Sales: 101, Revenue: 2431890.36
+686: Product: resource, Number of Sales: 95, Revenue: 2431321.58
+687: Product: loss, Number of Sales: 107, Revenue: 2428105.15
+688: Product: discussion, Number of Sales: 108, Revenue: 2427332.45
+689: Product: pattern, Number of Sales: 94, Revenue: 2426692.02
+690: Product: worry, Number of Sales: 97, Revenue: 2425612.65
+691: Product: whole, Number of Sales: 101, Revenue: 2421046.81
+692: Product: make, Number of Sales: 92, Revenue: 2418146.36
+693: Product: appear, Number of Sales: 109, Revenue: 2417521.43
+694: Product: him, Number of Sales: 95, Revenue: 2416348.55
+695: Product: figure, Number of Sales: 100, Revenue: 2416327.54
+696: Product: true, Number of Sales: 95, Revenue: 2414061.08
+697: Product: fine, Number of Sales: 98, Revenue: 2412907.34
+698: Product: machine, Number of Sales: 94, Revenue: 2412794.16
+699: Product: artist, Number of Sales: 101, Revenue: 2412587.91
+700: Product: suffer, Number of Sales: 104, Revenue: 2411493.15
+701: Product: purpose, Number of Sales: 94, Revenue: 2411373.86
+702: Product: huge, Number of Sales: 102, Revenue: 2410889.35
+703: Product: involve, Number of Sales: 96, Revenue: 2408307.07
+704: Product: back, Number of Sales: 91, Revenue: 2406319.92
+705: Product: citizen, Number of Sales: 92, Revenue: 2405694.91
+706: Product: before, Number of Sales: 97, Revenue: 2405236.14
+707: Product: three, Number of Sales: 108, Revenue: 2405079.44
+708: Product: trouble, Number of Sales: 96, Revenue: 2403235.74
+709: Product: no, Number of Sales: 96, Revenue: 2402475.23
+710: Product: woman, Number of Sales: 90, Revenue: 2400929.25
+711: Product: difference, Number of Sales: 89, Revenue: 2400555.22
+712: Product: more, Number of Sales: 87, Revenue: 2399602.78
+713: Product: yourself, Number of Sales: 104, Revenue: 2398271.16
+714: Product: note, Number of Sales: 86, Revenue: 2396208.37
+715: Product: white, Number of Sales: 98, Revenue: 2395316.38
+716: Product: most, Number of Sales: 98, Revenue: 2394544.78
+717: Product: generation, Number of Sales: 100, Revenue: 2393973.60
+718: Product: edge, Number of Sales: 101, Revenue: 2393178.66
+719: Product: tax, Number of Sales: 105, Revenue: 2393108.48
+720: Product: condition, Number of Sales: 102, Revenue: 2393016.00
+721: Product: agency, Number of Sales: 97, Revenue: 2392818.94
+722: Product: around, Number of Sales: 87, Revenue: 2391599.49
+723: Product: physical, Number of Sales: 95, Revenue: 2391577.51
+724: Product: speech, Number of Sales: 103, Revenue: 2391350.12
+725: Product: wall, Number of Sales: 91, Revenue: 2391173.27
+726: Product: land, Number of Sales: 108, Revenue: 2390452.41
+727: Product: I, Number of Sales: 101, Revenue: 2390318.42
+728: Product: product, Number of Sales: 101, Revenue: 2384517.06
+729: Product: travel, Number of Sales: 94, Revenue: 2384214.15
+730: Product: successful, Number of Sales: 97, Revenue: 2384066.01
+731: Product: their, Number of Sales: 99, Revenue: 2383386.04
+732: Product: floor, Number of Sales: 95, Revenue: 2382610.00
+733: Product: clear, Number of Sales: 95, Revenue: 2380751.26
+734: Product: top, Number of Sales: 88, Revenue: 2380425.75
+735: Product: short, Number of Sales: 101, Revenue: 2379395.15
+736: Product: so, Number of Sales: 87, Revenue: 2379083.70
+737: Product: field, Number of Sales: 99, Revenue: 2378950.22
+738: Product: occur, Number of Sales: 90, Revenue: 2377886.88
+739: Product: husband, Number of Sales: 99, Revenue: 2376909.80
+740: Product: design, Number of Sales: 91, Revenue: 2375197.27
+741: Product: traditional, Number of Sales: 103, Revenue: 2374132.70
+742: Product: hand, Number of Sales: 101, Revenue: 2373827.14
+743: Product: area, Number of Sales: 89, Revenue: 2372399.86
+744: Product: discuss, Number of Sales: 95, Revenue: 2371723.56
+745: Product: leg, Number of Sales: 114, Revenue: 2371018.65
+746: Product: third, Number of Sales: 90, Revenue: 2370972.66
+747: Product: provide, Number of Sales: 100, Revenue: 2370190.64
+748: Product: serious, Number of Sales: 106, Revenue: 2367007.05
+749: Product: throughout, Number of Sales: 90, Revenue: 2365271.04
+750: Product: report, Number of Sales: 88, Revenue: 2365197.29
+751: Product: Democrat, Number of Sales: 98, Revenue: 2364841.81
+752: Product: laugh, Number of Sales: 93, Revenue: 2363991.01
+753: Product: southern, Number of Sales: 92, Revenue: 2362473.79
+754: Product: candidate, Number of Sales: 88, Revenue: 2360976.97
+755: Product: whether, Number of Sales: 95, Revenue: 2360706.32
+756: Product: of, Number of Sales: 99, Revenue: 2359951.10
+757: Product: music, Number of Sales: 109, Revenue: 2357279.15
+758: Product: film, Number of Sales: 107, Revenue: 2354546.58
+759: Product: perform, Number of Sales: 92, Revenue: 2352433.23
+760: Product: guy, Number of Sales: 101, Revenue: 2352394.12
+761: Product: world, Number of Sales: 91, Revenue: 2349637.69
+762: Product: send, Number of Sales: 95, Revenue: 2348282.97
+763: Product: factor, Number of Sales: 111, Revenue: 2346440.04
+764: Product: course, Number of Sales: 100, Revenue: 2342856.10
+765: Product: building, Number of Sales: 91, Revenue: 2342662.08
+766: Product: during, Number of Sales: 92, Revenue: 2342584.97
+767: Product: where, Number of Sales: 93, Revenue: 2341397.04
+768: Product: subject, Number of Sales: 98, Revenue: 2338919.62
+769: Product: painting, Number of Sales: 95, Revenue: 2338640.61
+770: Product: away, Number of Sales: 93, Revenue: 2337191.40
+771: Product: finally, Number of Sales: 92, Revenue: 2336135.57
+772: Product: green, Number of Sales: 110, Revenue: 2335786.70
+773: Product: past, Number of Sales: 96, Revenue: 2335295.78
+774: Product: everybody, Number of Sales: 95, Revenue: 2333822.12
+775: Product: better, Number of Sales: 94, Revenue: 2333537.39
+776: Product: color, Number of Sales: 100, Revenue: 2333287.97
+777: Product: able, Number of Sales: 102, Revenue: 2330434.95
+778: Product: result, Number of Sales: 103, Revenue: 2330320.65
+779: Product: between, Number of Sales: 94, Revenue: 2330312.92
+780: Product: son, Number of Sales: 95, Revenue: 2324863.20
+781: Product: military, Number of Sales: 101, Revenue: 2324796.50
+782: Product: project, Number of Sales: 99, Revenue: 2322382.46
+783: Product: leave, Number of Sales: 89, Revenue: 2320771.31
+784: Product: that, Number of Sales: 92, Revenue: 2313541.03
+785: Product: us, Number of Sales: 100, Revenue: 2313487.77
+786: Product: race, Number of Sales: 100, Revenue: 2313039.35
+787: Product: student, Number of Sales: 95, Revenue: 2312704.11
+788: Product: game, Number of Sales: 94, Revenue: 2312518.63
+789: Product: fish, Number of Sales: 96, Revenue: 2309135.54
+790: Product: near, Number of Sales: 113, Revenue: 2308327.60
+791: Product: system, Number of Sales: 97, Revenue: 2307258.52
+792: Product: dark, Number of Sales: 101, Revenue: 2306001.94
+793: Product: treatment, Number of Sales: 99, Revenue: 2304338.43
+794: Product: new, Number of Sales: 102, Revenue: 2304101.15
+795: Product: friend, Number of Sales: 94, Revenue: 2303696.70
+796: Product: whose, Number of Sales: 95, Revenue: 2302487.27
+797: Product: safe, Number of Sales: 95, Revenue: 2302152.63
+798: Product: manage, Number of Sales: 99, Revenue: 2301525.75
+799: Product: series, Number of Sales: 98, Revenue: 2300923.91
+800: Product: stay, Number of Sales: 97, Revenue: 2299816.46
+801: Product: ten, Number of Sales: 97, Revenue: 2299408.04
+802: Product: rock, Number of Sales: 87, Revenue: 2298261.16
+803: Product: word, Number of Sales: 88, Revenue: 2296565.33
+804: Product: star, Number of Sales: 93, Revenue: 2296449.31
+805: Product: what, Number of Sales: 93, Revenue: 2295055.06
+806: Product: already, Number of Sales: 100, Revenue: 2294550.47
+807: Product: with, Number of Sales: 105, Revenue: 2292150.01
+808: Product: mean, Number of Sales: 96, Revenue: 2288966.16
+809: Product: view, Number of Sales: 89, Revenue: 2287528.78
+810: Product: person, Number of Sales: 100, Revenue: 2285615.61
+811: Product: push, Number of Sales: 99, Revenue: 2285122.95
+812: Product: throw, Number of Sales: 105, Revenue: 2284686.72
+813: Product: although, Number of Sales: 91, Revenue: 2284308.89
+814: Product: remain, Number of Sales: 82, Revenue: 2277083.46
+815: Product: board, Number of Sales: 100, Revenue: 2276861.96
+816: Product: than, Number of Sales: 102, Revenue: 2276787.75
+817: Product: draw, Number of Sales: 92, Revenue: 2275015.72
+818: Product: if, Number of Sales: 90, Revenue: 2270549.77
+819: Product: pressure, Number of Sales: 95, Revenue: 2270473.70
+820: Product: size, Number of Sales: 95, Revenue: 2267261.23
+821: Product: hair, Number of Sales: 101, Revenue: 2264212.50
+822: Product: television, Number of Sales: 90, Revenue: 2264175.28
+823: Product: thought, Number of Sales: 99, Revenue: 2262316.91
+824: Product: would, Number of Sales: 91, Revenue: 2258793.12
+825: Product: south, Number of Sales: 101, Revenue: 2255726.86
+826: Product: born, Number of Sales: 93, Revenue: 2255238.03
+827: Product: approach, Number of Sales: 92, Revenue: 2254736.30
+828: Product: read, Number of Sales: 88, Revenue: 2254625.00
+829: Product: stuff, Number of Sales: 80, Revenue: 2254100.32
+830: Product: he, Number of Sales: 100, Revenue: 2252553.71
+831: Product: general, Number of Sales: 103, Revenue: 2250655.33
+832: Product: agent, Number of Sales: 90, Revenue: 2249840.65
+833: Product: chance, Number of Sales: 98, Revenue: 2248953.56
+834: Product: several, Number of Sales: 103, Revenue: 2247941.66
+835: Product: or, Number of Sales: 86, Revenue: 2247533.10
+836: Product: moment, Number of Sales: 97, Revenue: 2244210.73
+837: Product: parent, Number of Sales: 99, Revenue: 2242284.85
+838: Product: will, Number of Sales: 96, Revenue: 2240578.57
+839: Product: challenge, Number of Sales: 87, Revenue: 2235766.70
+840: Product: pass, Number of Sales: 89, Revenue: 2232970.88
+841: Product: work, Number of Sales: 87, Revenue: 2228615.29
+842: Product: population, Number of Sales: 94, Revenue: 2228273.58
+843: Product: degree, Number of Sales: 93, Revenue: 2226485.30
+844: Product: quality, Number of Sales: 87, Revenue: 2223845.10
+845: Product: still, Number of Sales: 90, Revenue: 2223807.22
+846: Product: treat, Number of Sales: 84, Revenue: 2218690.73
+847: Product: local, Number of Sales: 98, Revenue: 2216395.84
+848: Product: least, Number of Sales: 102, Revenue: 2214679.95
+849: Product: either, Number of Sales: 89, Revenue: 2213279.01
+850: Product: interest, Number of Sales: 97, Revenue: 2206773.19
+851: Product: by, Number of Sales: 104, Revenue: 2205768.90
+852: Product: toward, Number of Sales: 90, Revenue: 2204945.25
+853: Product: those, Number of Sales: 96, Revenue: 2204739.56
+854: Product: direction, Number of Sales: 101, Revenue: 2202234.88
+855: Product: yes, Number of Sales: 86, Revenue: 2201441.50
+856: Product: middle, Number of Sales: 102, Revenue: 2196510.45
+857: Product: cut, Number of Sales: 89, Revenue: 2194933.56
+858: Product: develop, Number of Sales: 98, Revenue: 2194387.50
+859: Product: opportunity, Number of Sales: 95, Revenue: 2193557.72
+860: Product: lot, Number of Sales: 86, Revenue: 2192920.18
+861: Product: her, Number of Sales: 99, Revenue: 2190999.67
+862: Product: certainly, Number of Sales: 97, Revenue: 2190970.02
+863: Product: control, Number of Sales: 81, Revenue: 2189887.45
+864: Product: grow, Number of Sales: 93, Revenue: 2188455.82
+865: Product: TV, Number of Sales: 87, Revenue: 2186988.71
+866: Product: pay, Number of Sales: 95, Revenue: 2185688.04
+867: Product: move, Number of Sales: 89, Revenue: 2184164.16
+868: Product: teacher, Number of Sales: 86, Revenue: 2182561.40
+869: Product: blood, Number of Sales: 86, Revenue: 2181087.13
+870: Product: investment, Number of Sales: 93, Revenue: 2178809.29
+871: Product: determine, Number of Sales: 94, Revenue: 2176895.06
+872: Product: early, Number of Sales: 88, Revenue: 2172829.59
+873: Product: realize, Number of Sales: 85, Revenue: 2172525.74
+874: Product: paper, Number of Sales: 99, Revenue: 2172359.95
+875: Product: sister, Number of Sales: 91, Revenue: 2171643.54
+876: Product: special, Number of Sales: 86, Revenue: 2171185.97
+877: Product: under, Number of Sales: 105, Revenue: 2169869.98
+878: Product: first, Number of Sales: 97, Revenue: 2169054.58
+879: Product: organization, Number of Sales: 94, Revenue: 2168465.12
+880: Product: our, Number of Sales: 84, Revenue: 2167967.78
+881: Product: seem, Number of Sales: 105, Revenue: 2167869.21
+882: Product: couple, Number of Sales: 96, Revenue: 2167145.87
+883: Product: story, Number of Sales: 98, Revenue: 2160652.59
+884: Product: walk, Number of Sales: 98, Revenue: 2158120.75
+885: Product: get, Number of Sales: 98, Revenue: 2156968.17
+886: Product: popular, Number of Sales: 100, Revenue: 2156377.47
+887: Product: live, Number of Sales: 89, Revenue: 2155148.10
+888: Product: participant, Number of Sales: 103, Revenue: 2153707.12
+889: Product: activity, Number of Sales: 95, Revenue: 2148129.12
+890: Product: real, Number of Sales: 88, Revenue: 2145419.09
+891: Product: need, Number of Sales: 95, Revenue: 2143962.29
+892: Product: who, Number of Sales: 101, Revenue: 2143949.82
+893: Product: enough, Number of Sales: 80, Revenue: 2141901.73
+894: Product: share, Number of Sales: 86, Revenue: 2135962.44
+895: Product: total, Number of Sales: 81, Revenue: 2134650.99
+896: Product: political, Number of Sales: 88, Revenue: 2131629.65
+897: Product: billion, Number of Sales: 92, Revenue: 2126832.32
+898: Product: speak, Number of Sales: 89, Revenue: 2125542.48
+899: Product: water, Number of Sales: 93, Revenue: 2123911.34
+900: Product: people, Number of Sales: 92, Revenue: 2116015.43
+901: Product: history, Number of Sales: 96, Revenue: 2115041.21
+902: Product: among, Number of Sales: 83, Revenue: 2114023.38
+903: Product: run, Number of Sales: 85, Revenue: 2113306.43
+904: Product: support, Number of Sales: 94, Revenue: 2108812.80
+905: Product: player, Number of Sales: 83, Revenue: 2102909.98
+906: Product: former, Number of Sales: 89, Revenue: 2102098.69
+907: Product: believe, Number of Sales: 82, Revenue: 2101906.12
+908: Product: father, Number of Sales: 96, Revenue: 2099722.43
+909: Product: relate, Number of Sales: 88, Revenue: 2092485.39
+910: Product: expect, Number of Sales: 91, Revenue: 2091108.35
+911: Product: stop, Number of Sales: 96, Revenue: 2090178.27
+912: Product: various, Number of Sales: 93, Revenue: 2089597.00
+913: Product: they, Number of Sales: 80, Revenue: 2088819.12
+914: Product: rule, Number of Sales: 86, Revenue: 2086798.39
+915: Product: seek, Number of Sales: 87, Revenue: 2085671.71
+916: Product: standard, Number of Sales: 92, Revenue: 2081039.68
+917: Product: really, Number of Sales: 85, Revenue: 2073043.22
+918: Product: never, Number of Sales: 91, Revenue: 2071524.06
+919: Product: forward, Number of Sales: 91, Revenue: 2070153.92
+920: Product: name, Number of Sales: 94, Revenue: 2069355.20
+921: Product: all, Number of Sales: 87, Revenue: 2068372.33
+922: Product: practice, Number of Sales: 82, Revenue: 2067194.65
+923: Product: article, Number of Sales: 82, Revenue: 2064833.01
+924: Product: other, Number of Sales: 96, Revenue: 2063175.03
+925: Product: prepare, Number of Sales: 89, Revenue: 2060787.03
+926: Product: employee, Number of Sales: 95, Revenue: 2059644.05
+927: Product: happy, Number of Sales: 90, Revenue: 2056184.04
+928: Product: yet, Number of Sales: 84, Revenue: 2055250.31
+929: Product: drop, Number of Sales: 88, Revenue: 2051821.72
+930: Product: spend, Number of Sales: 87, Revenue: 2050873.28
+931: Product: point, Number of Sales: 83, Revenue: 2040494.42
+932: Product: understand, Number of Sales: 93, Revenue: 2034892.76
+933: Product: your, Number of Sales: 86, Revenue: 2032393.37
+934: Product: likely, Number of Sales: 82, Revenue: 2024594.14
+935: Product: Mr, Number of Sales: 85, Revenue: 2023946.60
+936: Product: perhaps, Number of Sales: 89, Revenue: 2021520.08
+937: Product: man, Number of Sales: 79, Revenue: 2021370.00
+938: Product: image, Number of Sales: 86, Revenue: 2019440.54
+939: Product: wind, Number of Sales: 97, Revenue: 2017989.91
+940: Product: per, Number of Sales: 86, Revenue: 2015736.01
+941: Product: bad, Number of Sales: 83, Revenue: 2008372.86
+942: Product: measure, Number of Sales: 88, Revenue: 2007127.21
+943: Product: oil, Number of Sales: 88, Revenue: 1992395.92
+944: Product: item, Number of Sales: 93, Revenue: 1973300.26
+945: Product: best, Number of Sales: 88, Revenue: 1970914.20
+946: Product: hotel, Number of Sales: 87, Revenue: 1969687.76
+947: Product: small, Number of Sales: 81, Revenue: 1969451.72
+948: Product: thing, Number of Sales: 93, Revenue: 1967474.71
+949: Product: large, Number of Sales: 82, Revenue: 1962930.76
+950: Product: similar, Number of Sales: 97, Revenue: 1961599.03
+951: Product: play, Number of Sales: 70, Revenue: 1947387.65
+952: Product: performance, Number of Sales: 93, Revenue: 1947358.09
+953: Product: pretty, Number of Sales: 93, Revenue: 1940053.36
+954: Product: international, Number of Sales: 84, Revenue: 1936948.84
+955: Product: should, Number of Sales: 92, Revenue: 1924601.76
+956: Product: mother, Number of Sales: 90, Revenue: 1916759.40
+957: Product: young, Number of Sales: 78, Revenue: 1913588.00
+958: Product: too, Number of Sales: 86, Revenue: 1912638.21
+959: Product: fill, Number of Sales: 92, Revenue: 1910719.41
+960: Product: lawyer, Number of Sales: 91, Revenue: 1907581.58
+961: Product: writer, Number of Sales: 89, Revenue: 1900099.58
+962: Product: interesting, Number of Sales: 88, Revenue: 1894003.12
+963: Product: theory, Number of Sales: 83, Revenue: 1868420.82
+964: Product: town, Number of Sales: 89, Revenue: 1865260.55
+965: Product: city, Number of Sales: 86, Revenue: 1850417.91
+966: Product: quickly, Number of Sales: 92, Revenue: 1819734.78
+967: Product: benefit, Number of Sales: 88, Revenue: 1792333.90
+968: Product: force, Number of Sales: 85, Revenue: 1786152.07
+969: Product: very, Number of Sales: 86, Revenue: 1744534.79
+970: Product: protect, Number of Sales: 81, Revenue: 1670892.42
+971: Product: only, Number of Sales: 79, Revenue: 1583739.27
