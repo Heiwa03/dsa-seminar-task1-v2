@@ -1,0 +1,2 @@
+Standard Deviation of Revenue per Category: 339214.97
+Mean Revenue per Category: 2619047.00
